@@ -1,0 +1,51 @@
+<div class="columns is-centered is-multiline is-mobile">
+    <div class="container">
+        {% for publication in site.data.publications %}
+        <br>
+        <div class="columns">
+            <div class="column is-one-third-desktop is-one-third-tablet is-one-third-fullhd">
+                <figure class="image">
+                    <img class="image" src="{{publication.image}}">
+                </figure>
+            </div>
+            <div
+                class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
+                <div class="columns">
+                    <p style="font-size: large; font-weight:bold">{{publication.name}}</p>
+                </div>
+                <div class="columns has-text-grey">
+                    <p>{{publication.description}}</p>
+                    <br>
+                </div>
+                <div class="columns" style="margin-top: 10px;">
+                    {% unless publication.pdflink == %}
+                    <a href="{{publication.pdflink}}">
+                        <img src="https://img.shields.io/badge/-Paper-ec1c24?style=flat&logo=adobeacrobatreader">
+                    </a>
+                    {% endunless %}
+                    {% unless publication.codelink == %}
+                    <a href="https://github.com/{{publication.codelink}}" style="margin-left: 20px;">
+                        <img
+                            src="https://img.shields.io/github/stars/{{publication.codelink}}?style=social&label=Star&maxAge=2592000">
+                    </a>
+                    {% endunless %}
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+        id="publication-card">
+        <a href="{{publication.pdflink}}" target="_blank">
+        <div class="has-background-black card">
+          <figure class="image is-3by1" style="background-image: url({{publication.image}});">
+          </figure>
+          <div class="card-content">
+            <h1 class="title has-text-white is-size-4">{{ publication.name }}</h1>
+            <p class="has-text-white has-text-weight-light content">{{ publication.description | truncate: 80}}</p>
+          </div>
+        </div>
+        </a>
+      </div> -->
+        {% endfor %}
+    </div>
+</div>

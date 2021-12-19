@@ -1,6 +1,6 @@
 ---
 title: Publications
-layout: page
+layout: publications
 ---
 
 # 1. Patch-Free 3D Medical Image Segmentation Driven by Super-Resolution Technique and Self-Supervised Guidance
