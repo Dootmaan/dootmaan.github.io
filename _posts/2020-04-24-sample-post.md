@@ -1,14 +1,16 @@
 ---
-title: Sample Post
+title: Wait, A Sample Post?
 layout: post
 post-image: "https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/SamplePost.png?token=AHMQUEPC4IFADOF5VG4QVN26Z64GG"
-description: A sample post to show how the content will look and how will different
+description: Yes, I will probably never delete this. A sample post to show how the content will look and how will different
   headlines, quotes and codes will be represented.
 tags:
 - sample
 - post
 - test
 ---
+
+It is a sample post from the Jekyll Template that shows some of the elements we can involve in our posts. 
 
 This post will show you how the content will look like in the post pages and how the headlines, quotes and quotes will be represented. Jekyll is mainly used to write simple markdown and after that it renders out a static pages, so you need to know the basics of writing markdown for that.
 For more information about writing markdown you can checkout the following markdown cheatsheets:
