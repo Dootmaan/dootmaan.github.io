@@ -1,7 +1,7 @@
 ---
 title: Introductions
 layout: post
-post-image: "/assets/images/hello.png"
+post-image: "/assets/images/hello.jpg"
 description: A brief introduction of this website and myself.
 tags:
 - me

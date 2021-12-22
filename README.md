@@ -1,9 +1,16 @@
 # WhatATheme
+
 **WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
-#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
+### License
+The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
 
-![WhatATheme](assets/images/meta.jpg)
+This readme will be kept in this repo for the respect of @TheDevsLot.
+
+It is a well-made theme that easy to modify. Personally i have learned a lot from his code and made some modifications to meet my requirement. Some social media channels are added to meet the demand in China and a publication page is also introduced. The page is auto generated from the data list so all u have to do is add your work in a dictionary form in publications.yml to make it work. Some of the slogans are also changed to suit the environment. The hero image is just randomly picked and looks just fine to me rn. Maybe i will change it sometimes for a fresh look.
+
+
+#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
 
 # Features :sparkles:
 * Free and Easy setup
@@ -49,5 +56,3 @@
 * [Sneha Omer](http://sassyecoder.github.io/)
 * [Harsh Trivedi](http://harsh98trivedi.github.io/)
 
-### License
-The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
