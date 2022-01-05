@@ -1,0 +1,48 @@
+---
+title: T-Test as a metric for model performance evaluation
+layout: post
+post-image: "/assets/images/2021.jpg"
+description: Introductions to Students t-test
+tags:
+- statistical evaluations
+- t-test
+- deep learning
+---
+
+Recently one of my reviewers asks me to conduct on my model to verify if it is statistically different from other sota methods. In this blog, I will briefly introduce T-Test and tell you how to use it to evaluate your deep learning models.
+
+### What is T-Test?
+
+So basically t-test is used to find our whether two sets of samples have obvious difference. Since many so-called 'sota' methods only have very limited improvements compared with previous works, it is necessary for them to use t-test to prove that their result is not just accidentally better. In this article, I will not dig into the principle of T-Test, but only tell you how to use it. 
+
+It should be noted that T-Test use the assumption that the test samples all correspond to normal distribution. This is certainly not true for many deep learning test results. However, as long as your results do not show obvious bias (this can only happens when you have too few samples and there exists a lot of noise), T-Test is still sitable for reference.
+
+Actually, T-Test is seldomly used in Computer Science and most of my friends have never heard of it. T-Test is often used in medical or financial fields, so if you have any questions about T-test, ask someone in medical or finance school.
+
+### Three kinds of T-Test
+
+Basically there are 3 types of T-Test.
+
+- One-Sample T-Test.
+- Independent-Samples T-Test.
+- Paired T-Test.
+
+If you want to compare your method with other methods on the same test set, paired T-Test is what you should use.
+
+### How to compute the T-Test result?
+
+There are many existing tools for you to do that. R, SPSS, even Microsoft Excel. However, if you wish to use T-Test for your experiment's statistical analysis, i will proberly recommend IBM SPSS for you. (You can get a 30-days trial from IBM each year. )
+
+1. To use SPSS for paired T-Test, you have to firstly import the **test result of each case** into SPSS. For you method, you list all the results (such as Dice for segmentation) in the same column. For the other method, list the results in another column with the exact same order. Some dataset may contains several classes, and if you would like to analysis each class separately, you should record the result of each class into different columns. 
+
+2. Then, Click 'Analyze -> Mean Comparison -> Paired T-Test in menu bar. 
+
+3. Then there will be a pop-up window. Select the two columns that you want to compare, then process.
+
+4. SPSS will pop up a detailed table for you result. It may be a little confusing to understand, but for you, a CS student, you can directly go to the table with 'p-value' in the last table. If you have a p-value < **0.05**, then it indicates that your result has a statistical difference from the other method. 
+
+5. You may also notice that there are actually two 'p-value's in the table, which are one-tailed p-value and two-tailed p-value. One-tailed p-value is the one you should take as reference only when you know that your method is better than the other one. However, if you are not so sure about this, you should use two-tailed p-value because this one is conputed from both direction. 
+
+### What does paired T-Test tells us?
+
+Paired T-Test is actualy based on the subtractions of two methods performance on the same case. If we have a p-value > 0.05, then maybe it is only coincidence that your method is better than the other one. For multi-class datasets, this could also happen because different methods have special advantages on processing different classes.
