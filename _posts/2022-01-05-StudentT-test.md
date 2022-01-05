@@ -33,7 +33,7 @@ If you want to compare your method with other methods on the same test set, pair
 
 There are many existing tools for you to do that. R language, SPSS, even Microsoft Excel. However, if you wish to use T-Test for your experiment's statistical analysis, i will proberly recommend IBM SPSS for you. (You can get a 30-days trial from IBM each year. )
 
-1. To use SPSS for paired T-Test, you have to firstly import the **test result of each case** into SPSS. For you method, you list all the results (such as Dice for segmentation) in the same column. For the other method, list the results in another column with the exact same order. Some dataset may contains several classes, and if you would like to analysis each class separately, you should record the result of each class into different columns. 
+1. To use SPSS for paired T-Test, you have to firstly import the **test result of each case** into SPSS. For your method, you list all the results (such as Dice for segmentation) in the same column. For the other method, list the results in another column with the exact same order. Some dataset may contains several classes, and if you would like to analysis each class separately, you should record the result of each class into different columns. 
 
 2. Then, Click 'Analyze -> Mean Comparison -> Paired T-Test in menu bar. 
 
