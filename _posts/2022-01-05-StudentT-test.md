@@ -1,15 +1,15 @@
 ---
 title: T-Test as a metric for model performance evaluation
 layout: post
-post-image: "/assets/images/2021.jpg"
-description: Introductions to Students t-test
+post-image: "/assets/images/ttest.jpg"
+description: Introductions to T-Test for machine learning
 tags:
 - statistical evaluations
 - t-test
 - deep learning
 ---
 
-Recently one of my reviewers asks me to conduct on my model to verify if it is statistically different from other sota methods. In this blog, I will briefly introduce T-Test and tell you how to use it to evaluate your deep learning models.
+Recently one of my reviewers asks me to conduct T-Test on my model to verify if it is statistically different from other sota methods. In this blog, I will briefly introduce T-Test and tell you how to use it to evaluate your deep learning models.
 
 ### What is T-Test?
 
@@ -31,7 +31,7 @@ If you want to compare your method with other methods on the same test set, pair
 
 ### How to compute the T-Test result?
 
-There are many existing tools for you to do that. R, SPSS, even Microsoft Excel. However, if you wish to use T-Test for your experiment's statistical analysis, i will proberly recommend IBM SPSS for you. (You can get a 30-days trial from IBM each year. )
+There are many existing tools for you to do that. R language, SPSS, even Microsoft Excel. However, if you wish to use T-Test for your experiment's statistical analysis, i will proberly recommend IBM SPSS for you. (You can get a 30-days trial from IBM each year. )
 
 1. To use SPSS for paired T-Test, you have to firstly import the **test result of each case** into SPSS. For you method, you list all the results (such as Dice for segmentation) in the same column. For the other method, list the results in another column with the exact same order. Some dataset may contains several classes, and if you would like to analysis each class separately, you should record the result of each class into different columns. 
 
