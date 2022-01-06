@@ -35,11 +35,11 @@ There are many existing tools for you to do that. R language, SPSS, even Microso
 
 1. To use SPSS for paired T-Test, you have to firstly import the **test result of each case** into SPSS. For your method, you list all the results (such as Dice for segmentation) in the same column. For the other method, list the results in another column with the exact same order. Some dataset may contains several classes, and if you would like to analysis each class separately, you should record the result of each class into different columns. 
 
-2. Then, Click 'Analyze -> Mean Comparison -> Paired T-Test in menu bar. 
+2. Then, Click 'Analyze -> Mean Comparison -> Paired T-Test' in menu bar. 
 
 3. Then there will be a pop-up window. Select the two columns that you want to compare, then process.
 
-4. SPSS will pop up a detailed table for you result. It may be a little confusing to understand, but for you, a CS student, you can directly go to the table with 'p-value' in the last table. If you have a p-value < **0.05**, then it indicates that your result has a statistical difference from the other method. 
+4. SPSS will pop up a detailed table for your result. It may be a little confusing to understand at first. But for you, a CS student, you can directly go to the table with 'p-value' in the last column. If you have a p-value < **0.05**, then it indicates that your result has a statistical difference from the other method. 
 
 5. You may also notice that there are actually two 'p-value's in the table, which are one-tailed p-value and two-tailed p-value. One-tailed p-value is the one you should take as reference only when you know that your method is better than the other one. However, if you are not so sure about this, you should use two-tailed p-value because this one is conputed from both direction. 
 
