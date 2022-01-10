@@ -1,8 +1,20 @@
 - name: TransLite3D
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
-  link:
-  description: Light-weight 3D Vision Transformers for Medical Images.
+  link: 
+  description: Light-weight 3D Vision Transformers for Medical Images. Experiments still going on.
 - name: PFSeg-Full
-  link:
+  link: https://github.com/Dootmaan/PFSeg-Full
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  description: Extended version of my previous MICCAI2021 paper.
+  description: Extended version of my previous MICCAI2021 paper. (under review)
+- name: PFSeg-ABR
+  link: https://github.com/Dootmaan/PFSeg-ABR
+  image: https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg
+  description: Add Adaptive Boundary Refinement for my previous MICCAI2021 paper.
+- name: DSRL
+  link: https://github.com/Dootmaan/DSRL
+  image: https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_960_720.jpg
+  description: PyTorch Implementation of CVPR2020 paper "DSRL"
+- name: Point-Unet
+  link: https://github.com/Dootmaan/Point-Unet
+  image: https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557399_960_720.jpg
+  description: PyTorch Implementation of MICCAI2021 paper "Point-Unet"
