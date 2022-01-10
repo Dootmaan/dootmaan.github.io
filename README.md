@@ -1,45 +1,9 @@
-# WhatATheme
-
-**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
-
 ### License
-The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
+* The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
 
-This readme will be kept in this repo for the respect of @TheDevsLot.
+* This readme will be kept in this repo for the respect of @TheDevsLot.
 
-It is a well-made theme that easy to modify. Personally i have learned a lot from his code and made some modifications to meet my requirement. Some social media channels are added to meet the demand in China and a publication page is also introduced. The page is auto generated from the data list so all u have to do is add your work in a dictionary form in publications.yml to make it work. Some of the slogans are also changed to suit the environment. The hero image is just randomly picked and looks just fine to me rn. Maybe i will change it sometimes for a fresh look.
-
-
-#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
-
-# Features :sparkles:
-* Free and Easy setup
-* No Coding Required
-* Compatible with [Github Pages](https://pages.github.com/)
-* Responsive and Blogging Ready
-* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
-* Minified CSS using SaSS
-* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
-* Stylesheet built using SaSS
-* Comments using Disqus
-* Analytics using Google Analytics
-* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
-
-# Installation :books:
-### System Requirements
-* [Ruby](https://www.ruby-lang.org/en/)
-* [Jekyll](https://jekyllrb.com/)
-> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
-### Up and Running
-* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
-* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
-* Inside the directory run `bundle install`
-* Host WhatATheme locally by running `bundle exec jekyll s`
-
-> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
-
-[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
+* It is a well-made theme that easy to modify. Personally i have learned a lot from his code and made some modifications to meet my requirement. Some social media channels are added to meet the demand in China and a publication page is also introduced. The page is auto generated from the data list so all u have to do is add your work in a dictionary form in publications.yml to make it work. Some of the slogans are also changed to suit the environment. The hero image is just randomly picked and looks just fine to me rn. Maybe i will change it sometimes for a fresh look.
 
 ---
 
