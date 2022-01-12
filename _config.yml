@@ -18,7 +18,7 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://cdn.pixabay.com/photo/2020/02/01/17/51/mountain-4810958_1280.jpg
+heroimage: https://cdn.pixabay.com/photo/2021/01/23/12/58/mountains-5942460_1280.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -33,6 +33,7 @@ reddit_username: dootmaan
 behance_username: 
 dribbble_username: 
 spotify_username: 314bedcquw5bxjqzw4mtetyvtrd4
+researchgate_username: Hongyi-Wang-16
 
 # Google Analytics
 google-analytics: UA-163806439-1

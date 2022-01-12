@@ -24,9 +24,9 @@
                     </a>
                     {% endunless %}
                     {% unless publication.codelink == %}
-                    <a href="https://github.com/{{publication.codelink}}" style="margin-left: 20px;">
+                    <a href="{{publication.codelink}}" style="margin-left: 20px;">
                         <img
-                            src="https://img.shields.io/github/stars/{{publication.codelink}}?style=social&label=Star&maxAge=2592000">
+                            src="https://img.shields.io/github/stars/{{publication.codelink | remove: 'https://github.com/'}}?style=social&label=Star&maxAge=2592000">
                     </a>
                     {% endunless %}
                 </div>

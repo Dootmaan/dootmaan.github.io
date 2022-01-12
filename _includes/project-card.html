@@ -6,9 +6,15 @@
       <div class="has-background-black card">
         <figure class="image is-3by1" style="background-image: url({{project.image}});">
         </figure>
-        <div class="card-content">
+        <div class="card-content" style="padding: 1rem;">
           <h1 class="title has-text-white is-size-4">{{ project.name }}</h1>
-          <p class="has-text-white has-text-weight-light content">{{ project.description | truncate: 80}}</p>
+          <p class="has-text-white has-text-weight-light content" style="margin-bottom: 8px;" title="{{project.description}}">{{ project.description | truncate: 80}}</p>
+          {% unless project.status == %}  
+            <img src="https://img.shields.io/badge/status-{{project.status}}-green" style="margin-right: 12px;">
+          {% endunless %}
+          {% unless project.link == %}  
+            <img src="https://img.shields.io/github/stars/{{project.link | remove: 'https://github.com/'}}?style=social&label=Star&maxAge=2592000">
+          {% endunless %}
         </div>
       </div>
       </a>
