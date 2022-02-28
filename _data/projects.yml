@@ -1,7 +1,7 @@
-- name: TransLite3D
-  link: 
+- name: VolumeFormer
+  link: https://github.com/Dootmaan/VolumeFormer
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
-  status: experimenting
+  status: under review
   description: Light-weight 3D Vision Transformers for Medical Images.
 - name: PFSeg-Full
   link: https://github.com/Dootmaan/PFSeg-Full
