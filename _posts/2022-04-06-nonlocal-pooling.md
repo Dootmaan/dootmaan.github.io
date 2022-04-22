@@ -32,7 +32,7 @@ Consider the following situation:
 
 The first example is a classic chessboard image. This picture is often used to illustrate the high-frequency information loss during some image processing algorithms. As you can see, both average pooling and max pooling loses the pattern during downsampling, which may lead to unnecessary misunderstanding. The second example is a corgi on the upper left corner of an image. Though local-wise pooling can output a downsampled image, it may be better if they can focus more on the corgi rather than the background. The two problems requires a global view to solve, and that's why pooling should also go non-local just like the convolution.
 
-We have already implemented the very first version of non-local pooling through MLP and the experimental results looks really great. However, such implementation inevitably leads to dramatic increase in the number of parameters, so we still have to work on other solutions.
+We have already implemented the very first version of non-local pooling through MLP and the experimental results looks really great (check it [here](https://github.com/Dootmaan/NonLocalPooling) or try it with 'pip install nonlocalpooling'). However, such implementation inevitably leads to dramatic increase in the number of parameters, so we still have to work on other solutions.
 
 
 

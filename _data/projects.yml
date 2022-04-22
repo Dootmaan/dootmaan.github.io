@@ -1,3 +1,8 @@
+- name: NonLocalPooling
+  link: https://github.com/Dootmaan/NonLocalPooling
+  image: https://cdn.pixabay.com/photo/2015/01/09/11/11/office-594132_1280.jpg
+  status: experimenting
+  description: Non-Local Pooling Layer for Modern Vision Backbones.
 - name: VolumeFormer
   link: https://github.com/Dootmaan/VolumeFormer
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
