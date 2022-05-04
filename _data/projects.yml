@@ -2,22 +2,27 @@
   link: https://github.com/Dootmaan/NonLocalPooling
   image: https://cdn.pixabay.com/photo/2015/01/09/11/11/office-594132_1280.jpg
   status: experimenting
-  description: Non-Local Pooling Layer for Modern Vision Backbones.
+  description: Non-Local Pooling Layer for Modern Vision Backbones
 - name: VolumeFormer
   link: https://github.com/Dootmaan/VolumeFormer
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   status: under review
-  description: Light-weight 3D Vision Transformers for Medical Images.
+  description: Light-weight 3D Vision Transformers for Medical Images
 - name: PFSeg-Full
   link: https://github.com/Dootmaan/PFSeg-Full
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
   status: under review
-  description: Full extended version of my previous MICCAI2021 paper.
+  description: Full extended version of my previous MICCAI2021 paper
+- name: U-Shaped 3D AS-MLP
+  link: https://github.com/Dootmaan/3D-ASMLP-Segmentation
+  image: https://cdn.pixabay.com/photo/2018/03/17/10/51/bulletin-board-3233653_1280.jpg
+  status: finished
+  description: U-Shaped 3D AS-MLP for Medical Image Segmentation
 - name: PFSeg-ABR
   link: https://github.com/Dootmaan/PFSeg-ABR
   image: https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg
   status: finished
-  description: Adaptive Boundary Refinement for my previous MICCAI2021 paper.
+  description: Adaptive Boundary Refinement for my previous MICCAI2021 paper
 - name: DSRL
   link: https://github.com/Dootmaan/DSRL
   image: https://cdn.pixabay.com/photo/2017/08/01/00/38/man-2562325_960_720.jpg
