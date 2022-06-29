@@ -1,10 +1,18 @@
 - name: Patch-Free 3D Medical Image Segmentation Driven by Super-Resolution Technique and Self-Supervised Guidance
+  authors: Hongyi Wang, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
   image: /assets/images/PFSeg.jpg
   pdflink: https://link.springer.com/chapter/10.1007/978-3-030-87193-2_13
   codelink: https://github.com/Dootmaan/PFSeg
   description: In this paper we propose a low-cost 3D segmentation framework which can realize HR segmentation with LR input. Thus, patch-sampling is no longer needed and the model can have the global context when training. Experiments show that our model outperforms patch-based methods with a 4x higher speed.
 - name: Mixed Transformer U-Net For Medical Image Segmentation
+  authors: Hongyi Wang, Shiao Xie, Lanfen Lin, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
   image: /assets/images/MT-UNet.jpg
   pdflink: https://arxiv.org/abs/2111.04734
   codelink: https://github.com/Dootmaan/MT-UNet
   description: In this paper we propose a new Vision Transformer module to simutaneously model local and global dependecies. The self-attention is split into fine-grained local SA and coarse-grained global SA with a gaussian mask further added on it. Experiments show that our model achieved sota performance on two datasets.
+- name: "CubeMLP: An MLP-based Model for Multimodal Sentiment Analysis and Depression Estimation"
+  authors: Hao Sun, Hongyi Wang, Jiaqing LIU, Yen-wei Chen, Lanfen Lin
+  image: /assets/images/CubeMLP.jpg
+  pdflink: https://openreview.net/forum?id=VbfG9G-QC5
+  codelink: 
+  description: In this paper we propose a simple yet efficient pure-MLP multimodal fusion technique named CubeMLP. CubeMLP fuses the multimodal input in sequence, modality and channel dimensions repectively, achieving SOTA performance on CMU-MOSI, CMU-MOSEI and AVEC2019 with a much lower complexity.

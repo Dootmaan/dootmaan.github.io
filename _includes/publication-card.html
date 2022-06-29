@@ -1,6 +1,7 @@
 <div class="columns is-centered is-multiline is-mobile">
     <div class="container">
         {% for publication in site.data.publications %}
+        <hr>
         <br>
         <div class="columns">
             <div class="column is-one-third-desktop is-one-third-tablet is-one-third-fullhd">
@@ -13,8 +14,11 @@
                 <div class="columns">
                     <p style="font-size: large; font-weight:bold">{{publication.name}}</p>
                 </div>
+                <div class="columns">
+                    <p style="font-size:x-small; font-style: italic; margin-bottom: 10px;">{{publication.authors}}</p>
+                </div>
                 <div class="columns has-text-grey">
-                    <p>{{publication.description}}</p>
+                    <p style="font-size:smaller;">{{publication.description}}</p>
                     <br>
                 </div>
                 <div class="columns" style="margin-top: 10px;">
@@ -47,5 +51,6 @@
         </a>
       </div> -->
         {% endfor %}
+        <br>
     </div>
 </div>
