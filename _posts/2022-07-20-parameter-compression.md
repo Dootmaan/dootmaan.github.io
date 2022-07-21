@@ -1,7 +1,7 @@
 ---
 title: "Parameter Compression Based on Probability Density Function: An Idea" 
 layout: post
-post-image: "/assets/images/nonlocal_pooling.png"
+post-image: "/assets/images/pdf4compression.png"
 description: Maybe we can turns to store the probability density function to realize model compression
 tags:
 - lightweight
