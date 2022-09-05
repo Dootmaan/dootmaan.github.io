@@ -13,6 +13,6 @@
 - name: "CubeMLP: An MLP-based Model for Multimodal Sentiment Analysis and Depression Estimation (ACM MM 2022)"
   authors: Hao Sun, Hongyi Wang, Jiaqing LIU, Yen-wei Chen, Lanfen Lin
   image: /assets/images/CubeMLP.jpg
-  pdflink: https://openreview.net/forum?id=VbfG9G-QC5
+  pdflink: https://arxiv.org/abs/2207.14087
   codelink: 
   description: In this paper we propose a simple yet efficient pure-MLP multimodal fusion technique named CubeMLP. CubeMLP fuses the multimodal input in sequence, modality and channel dimensions repectively, achieving SOTA performance on CMU-MOSI, CMU-MOSEI and AVEC2019 with a much lower complexity.
