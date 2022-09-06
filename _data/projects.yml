@@ -38,3 +38,8 @@
   image: https://cdn.pixabay.com/photo/2020/03/06/08/00/laptop-4906312_960_720.jpg
   status: finished
   description: PyTorch implementation of classic 3D segmentation model "V-Net"
+- name: QZW
+  link: https://github.com/Dootmaan/QZW
+  image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_1280.jpg
+  status: finished
+  description: A WeChat Mini Program that can realize Face Switch (dlib based)
