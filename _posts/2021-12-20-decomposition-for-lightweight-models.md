@@ -9,7 +9,7 @@ tags:
 - interpolation
 ---
 
-Decomposition, as the most intuitive method for reducing memory cost, has only been forgotten by people that how big their imfluence is. This article review decomposition in deep learning and also introduces some great work in this field.
+Decomposition, as the most intuitive method for reducing memory cost, has been forgotten by people since they usually leads to performance degration as well. This article reviews decomposition in deep learning and also introduces some great work in this field.
 
 In deep learning era, GPU plays an very important role in model training for their great parallel computing abiliy. However, for high resolution real-world images, graphical memory usually tends to be insufficient. Therefore, many people use interpolation to down-sample the image. In my view downsampling can be also viewed as a method of decomposition. 
 
@@ -23,7 +23,7 @@ The above two ways of decomposition both cause information loss for the model. I
     Fig.1 Sub-Pixel
 </center>
 
-Sub-Pixel is a classic upsampling methods proposed in CVPR 2016. It is originally designed for super-resolution but can be also used as a common upsampling layer. It will typically convert several channels' feature into a bigger, single channel image with certain arrangement of the pixels.
+Sub-Pixel is a classic upsampling method proposed in CVPR 2016. It is originally designed for super-resolution but can also be used as a common upsampling layer. Generally speaking, it will convert several channels' feature into a bigger, single channel image with certain arrangement of the pixels.
 
 <center>
     <img src="/assets/images/holisticDecomposition.png" width="500">
@@ -31,6 +31,6 @@ Sub-Pixel is a classic upsampling methods proposed in CVPR 2016. It is originall
     Fig.2 Holistic Decomposition
 </center>
 
-Holistic Decomposition is just the opposite. It will convert a single-channel image into several small images. These two modules can be directly inserted into the front and end of existing models to realize patch-free segmemntation. However, in essence the cost is that the model's width will shrink comparatively.
+Holistic Decomposition is just the opposite. It will convert a single-channel image into several small images to form a multi-channel image. These two modules can be directly inserted into the front and end of existing models to realize patch-free segmemntation. However, the cost is that the model's width will shrink comparatively.
 
 Finally there are also other patch-free methods. Some uses downsampled image as input but involves Super-Resolution to compensate the information loss ([MICCAI2021 Wang et al.](https://link.springer.com/chapter/10.1007/978-3-030-87193-2_13)); Some uses point-cloud segmentation to dynamiclly convert the large input image into points and omit the points with less information (MICCAI2021 Point-Unet). These methods has their pros and cons and you are encouraged to read them if interested. Currently, patch-free segmentation is still a less-noticed field that worth further exploration.

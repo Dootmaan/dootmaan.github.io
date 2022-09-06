@@ -13,9 +13,9 @@ As the second year of this COVID-19 pandemic, 2021 is actually not so bad. Even 
 
 ### 1. Attending an International Conference
 
-This year starts with a MICCAI full paper submission. I spent most of my winter holiday writing this paper and submitted it just in time. This is the first i submit a paper to an internatoional conference so there exists many unknown problems for me, such as the usage of CMT and how to properly respond to peer reviews. Luckily, i have my instructors and colleges helping me around and they have provided me with tons of great suggestions. After the rebuttal in June, the paper is finally accepted.
+This year starts with a MICCAI full paper submission. I spent most of my winter holiday writing this paper and submitted it just in time. This is the first time I submit a paper to an internatoional conference so there exists many unknown problems for me, such as the usage of CMT and how to properly respond to peer reviews. Luckily, I have my supervisors and colleagues helping me around and they have provided me with tons of great suggestions. After the rebuttal in June, the paper is finally accepted.
 
-The conference is held in September, and I have to attend it virtually due to the pandemic. My presenting time is 7-9 p.m. CST, and at that time there are actually not so many people in SpatialChat. The whole process is actually quitely fun since everyone just appears on the screen as a small icon, and u can move yourself to different presentation rooms to ask the presenter questions. I spent some time hanging around finding interesting works, and i did find some brilliant ideas. 
+The conference is held in September, and I have to attend it virtually due to the pandemic. My presentation time is 7-9 p.m. CST, and at that time there are actually not so many people in SpatialChat. The whole process is actually quite fun since everyone just appears on the screen as a small icon, and you can move yourself to different presentation rooms to ask the presenter questions. I spent some time hanging around finding interesting works, and i did find some brilliant ideas. 
 
 ### 2. Being a TA
 

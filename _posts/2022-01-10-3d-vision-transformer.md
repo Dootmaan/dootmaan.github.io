@@ -23,6 +23,6 @@ Pure Transformer has been proved to have a similar modeling ability as CNNs. Thi
 
 ### Challenge 3: Modifications for Visual Tasks
 
-This is also a critic issue for 2D vision transformers. Transformers are firstly proposed for NLP tasks, so directly applying it to visual tasks may cause incompatibility. For example, patches are widely used in vision transformers to convert an image into sequence. But is it really necessary? Will it harm the model performance especially for dense prediction tasks?
+This is also a critical issue for 2D vision transformers. Transformers are firstly proposed for NLP tasks, so directly applying it to visual tasks may cause incompatibility. For example, patches are widely used in vision transformers to convert an image into sequence. But is it really necessary? Will it harm the model performance especially for dense prediction tasks?
 
 Personlly I believe vision transformers should abandon patches (or in other words, use 1*1 patches) to further improve the segmentation performance. The use of patches in vision transformers is more like a way to reduce the number of tokens, trying to embedding the local information of a small region into one single token. Such operation lacks flexibility and may cause negative influence.
