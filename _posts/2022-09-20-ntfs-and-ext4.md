@@ -12,7 +12,7 @@ tags:
 
 Currently I am working on reseaches related to pathology dataset, and as you may know these images are usually extremely large. For example, a .tif whole slide image from a Phillips machine can cost me about 2.3G disk space and remember, remember that it is just ONE SINGLE image. For my pathology dataset, there are about 2200 such images that sum up to 5.3T. 
 
-The doctors like to use Windows as their operating system. It is totally fine, and in fact I personally use Windows a lot as well. But unfortuately our deep learning server runs Linux, so we cannot just simply connect the dataset drive to the server and start the research immediately. Before, when the dataset size is reasonable (~100G), I can usually count on scp to upload the files. But this time, with the so-big whole slide images, scp just refuses to work. 
+The doctors like to use Windows as their operating system. It is totally fine, and in fact I personally use Windows a lot as well. But unfortuately our deep learning server runs Linux, so we cannot just simply connect the dataset drive to the server and start the research immediately. In the past, when the dataset size is reasonable (~100G), I can usually count on scp to upload the files. But this time, with the so-big whole slide images, scp just refuses to work. 
 
 I have to find another way.
 
@@ -22,11 +22,11 @@ The doctors give me two NTFS drives that contains their 4-year's hard-work of da
 
 `scp -r <source_folder_path> <user>@<ip_address>:<destination_folder_path>`
 
-Usually it works perfectly but this time I find it often disconnects halfway due to the heavy tranferring burden. Also, the transferring speed is not so good since it can only maintains about 12M/s speed. I have also tried to use FileZilla but it also fails frenquently. Specifically, for a scheduled task with 30 whole slide images, 17 of them failed.
+Usually it works perfectly but this time I find it often disconnects halfway due to the heavy tranferring burden. Also, the transferring speed is not so good since it can only maintains about 12MB/s speed. I have also tried to use FileZilla but it also fails frenquently. Specifically, for a scheduled task with 30 whole slide images, 17 of them failed.
 
 ### Can we do a real physical copy?
 
-I am tired of uploading the dataset by network connection. I want to do this is a more primitive but effective way. I want to directly copy the files through my personally computer.
+I am tired of uploading the dataset by network connection. I want to do this in a more primitive but effective way. I want to directly copy the files through my personally computer.
 
 But is that even possible? I mean, when we connect a Linux drive to a Windows PC, the PC is just 'impossible' to recognize the drive right? 
 
