@@ -40,10 +40,10 @@ Then windows will download the necessary components and install Ubuntu as a Subs
 
 `wsl --mount <your_physical_drive> --partition 1`
 
-If your disk has more than one partition then you have to change the parameter accordingly. The disk will be mounted to /mnt/wsl/<your_drive>p1 by default. You can also find it in File Explorer, meaning that you can now directly copy files in a NTFS disk to this Linux drive. 
+If your disk has more than one partition then you have to change the parameter accordingly. The disk will be mounted to /mnt/wsl/\<your_drive\>p1 by default. You can also find it in File Explorer, meaning that you can now directly copy files in a NTFS disk to this Linux drive. 
 
 ### However, it is still not that easy
 
-Though this is the most stable way of copying files and it also has a great stability, there are still some restrictions. It seems that there is a buffer area for this cross-filesystem copying operation and you can only copy 255G files at a time. So, I have to split my 5.3T pathology dataset and perform the copying operation several times. Also, there is also sudden crash to the copying process, but only with an extremely low chance. When this happens, there will be no alert for you so you won't know the files are actually broken. You'll have to check the file size by yourself and reconduct the process if needed.
+Though this is the most stable way of copying files and it also has a fast speed, there are still some restrictions. It seems that there is a buffer area for this cross-filesystem copying operation and you can only copy 255G files at a time. So, I have to split my 5.3T pathology dataset and perform the copying operation several times. Also, there is also sudden crash to the copying process, but only with an extremely low chance. When this happens, there will be no alert for you so you won't know the files are actually broken. You'll have to check the file size by yourself and reconduct the process if needed.
 
 Generally speaking it is really amazing to see Microsoft giving full support for Linux Filesystem on Windows. I believe it is the right decision that they embrace the open-source community and make contributions that can help everyone. 
