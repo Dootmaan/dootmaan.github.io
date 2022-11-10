@@ -16,3 +16,9 @@
   pdflink: https://arxiv.org/abs/2207.14087
   codelink: 
   description: In this paper we propose a simple yet efficient pure-MLP multimodal fusion technique named CubeMLP. CubeMLP fuses the multimodal input in sequence, modality and channel dimensions repectively, achieving SOTA performance on CMU-MOSI, CMU-MOSEI and AVEC2019 with a much lower complexity.
+- name: "Super-Resolution Based Patch-Free 3D Medical Image Segmentation with Self-Supervised Guidance"
+  authors: Hongyi Wang, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
+  image: /assets/images/PFSeg-Full.jpg
+  pdflink: https://arxiv.org/abs/2210.14645
+  codelink: https://github.com/Dootmaan/PFSeg-Full
+  description: This paper is the extended version of our MICCAI 2021 paper. The main improvements include a selective cropping algorithm for HR guidance patch, the use of multi-scale encoders, and test-time refinement based on the existing LR-HR image pair. This paper is finished in January 2022.
