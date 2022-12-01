@@ -1,3 +1,8 @@
+- name: DTFD-MIL
+  link: https://github.com/Dootmaan/DTFD-MIL.PyTorch
+  image: https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg
+  status: finished
+  description: PyTorch implementation of CVPR2022 paper "DTFD-MIL"
 - name: NonLocalPooling
   link: https://github.com/Dootmaan/NonLocalPooling
   image: https://cdn.pixabay.com/photo/2015/01/09/11/11/office-594132_1280.jpg
