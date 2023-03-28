@@ -23,7 +23,7 @@ This year I also started looking for research visitings to other universities. S
 
 ### 3. Helping an undergraduate student
 
-I also cooperated with an undergraduate student and did some researches on pure-MIL networks. The boy is a nice guy but seems like lacking the motivation for research. At the beginning, he is not familiar with the code and seems hesitate to ask any questions, but eventually everything just turns out fine. I really get along with him, and we have talked a lot about other things, his life and my life, whatever. He of course graduated on time with the pure-MLP work, and then found a job in this city. However, we did not contact with each other much since his graduation, but I still feel pretty good about helping him.
+I also cooperated with an undergraduate student and did some researches on pure-MLP networks. The boy is a nice guy but seems like lacking the motivation for research. At the beginning, he is not familiar with the code and seems hesitate to ask any questions, but eventually everything just turns out fine. I really get along with him, and we have talked a lot about other things, his life and my life, whatever. He of course graduated on time with the pure-MLP work, and then found a job in this city. However, we did not contact with each other much since his graduation, but I still feel pretty good about helping him.
 
 ### 4. The machines
 
