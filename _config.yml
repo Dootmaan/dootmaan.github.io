@@ -18,7 +18,7 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://cdn.pixabay.com/photo/2022/12/06/11/31/trees-7638777_1280.jpg
+heroimage: https://cdn.pixabay.com/photo/2023/04/15/15/16/house-7927916_1280.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -47,7 +47,7 @@ author-name: Hongyi aka dotman
 # URL for the Image of the Author
 author-image: /assets/images/me2.jpg
 # 60 Words About the Author
-author-about: Hi there, my name is Hongyi and I am currently a third year Computer Science PhD at Zhejiang Univeristy. My research interests lies in Medical Image Analysis, Light-Weight 3D Models and Image Reconstruction.
+author-about: Hi there, my name is Hongyi and I am currently a third year Computer Science PhD at Zhejiang Univeristy (I will have a short stay in HKUST From Apr 2023 to Oct 2023). My research interests lies in Medical Image Analysis, Light-Weight 3D Models and Image Reconstruction.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/Dootmaan
 
