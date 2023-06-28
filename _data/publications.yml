@@ -22,3 +22,9 @@
   pdflink: https://arxiv.org/abs/2210.14645
   codelink: https://github.com/Dootmaan/PFSeg-Full
   description: This paper is the extended version of our MICCAI 2021 paper. The main improvements include a selective cropping algorithm for HR guidance patch, the use of multi-scale encoders, and test-time refinement based on the existing LR-HR image pair. This paper is finished in January 2022.
+- name: Iteratively Coupled Multiple Instance Learning from Instance to Bag Classifier for Whole Slide Image Classification (MICCAI 2023)
+  authors: Hongyi Wang, Luyang Luo, Fang Wang, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin, Hao Chen
+  image: /assets/images/ICMIL.png
+  pdflink: https://arxiv.org/pdf/2303.15749
+  codelink: https://github.com/Dootmaan/ICMIL
+  description: In this paper, we propose to solve the information propagation gap between the embedder and classifier in MIL with an iteratively coupled method. This elegant method view the entire MIL pipeline as an EM optimization problem, and is highly generalizable. We adopt ICMIL on different MIL backbones and achieved consistent improvements.
