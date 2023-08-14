@@ -1,30 +1,54 @@
 - name: Patch-Free 3D Medical Image Segmentation Driven by Super-Resolution Technique and Self-Supervised Guidance (MICCAI 2021)
-  authors: Hongyi Wang, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
+  authors: <u>Hongyi Wang</u>, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
   image: /assets/images/PFSeg.jpg
   pdflink: https://link.springer.com/chapter/10.1007/978-3-030-87193-2_13
   codelink: https://github.com/Dootmaan/PFSeg
   description: In this paper we propose a low-cost 3D segmentation framework which can realize HR segmentation with LR input. Thus, patch-sampling is no longer needed and the model can have the global context when training. Experiments show that our model outperforms patch-based methods with a 4x higher speed.
 - name: Mixed Transformer U-Net For Medical Image Segmentation (ICASSP 2022)
-  authors: Hongyi Wang, Shiao Xie, Lanfen Lin, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
+  authors: <u>Hongyi Wang</u>, Shiao Xie, Lanfen Lin, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
   image: /assets/images/MT-UNet.jpg
   pdflink: https://arxiv.org/abs/2111.04734
   codelink: https://github.com/Dootmaan/MT-UNet
   description: In this paper we propose a new Vision Transformer module to simutaneously model local and global dependecies. The self-attention is split into fine-grained local SA and coarse-grained global SA with a gaussian mask further added on it. Experiments show that our model achieved sota performance on two datasets.
 - name: "CubeMLP: An MLP-based Model for Multimodal Sentiment Analysis and Depression Estimation (ACM MM 2022)"
-  authors: Hao Sun, Hongyi Wang, Jiaqing LIU, Yen-wei Chen, Lanfen Lin
+  authors: Hao Sun, <u>Hongyi Wang</u>, Jiaqing LIU, Yen-wei Chen, Lanfen Lin
   image: /assets/images/CubeMLP.jpg
   pdflink: https://arxiv.org/abs/2207.14087
   codelink: 
   description: In this paper we propose a simple yet efficient pure-MLP multimodal fusion technique named CubeMLP. CubeMLP fuses the multimodal input in sequence, modality and channel dimensions repectively, achieving SOTA performance on CMU-MOSI, CMU-MOSEI and AVEC2019 with a much lower complexity.
 - name: "Super-Resolution Based Patch-Free 3D Medical Image Segmentation with Self-Supervised Guidance"
-  authors: Hongyi Wang, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
+  authors: <u>Hongyi Wang</u>, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
   image: /assets/images/PFSeg-Full.jpg
   pdflink: https://arxiv.org/abs/2210.14645
   codelink: https://github.com/Dootmaan/PFSeg-Full
   description: This paper is the extended version of our MICCAI 2021 paper. The main improvements include a selective cropping algorithm for HR guidance patch, the use of multi-scale encoders, and test-time refinement based on the existing LR-HR image pair. This paper is finished in January 2022.
 - name: Iteratively Coupled Multiple Instance Learning from Instance to Bag Classifier for Whole Slide Image Classification (MICCAI 2023)
-  authors: Hongyi Wang, Luyang Luo, Fang Wang, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin, Hao Chen
+  authors: <u>Hongyi Wang</u>, Luyang Luo, Fang Wang, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin, Hao Chen
   image: /assets/images/ICMIL.png
   pdflink: https://arxiv.org/pdf/2303.15749
   codelink: https://github.com/Dootmaan/ICMIL
   description: In this paper, we propose to solve the information propagation gap between the embedder and classifier in MIL with an iteratively coupled method. This elegant method view the entire MIL pipeline as an EM optimization problem, and is highly generalizable. We adopt ICMIL on different MIL backbones and achieved consistent improvements.
+- name: "SLViT: Scale-Wise Language-Guided Vision Transformer for Referring Image Segmentation (IJCAI 2023)"
+  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Shiao Xie, Ziwei Niu, Ruofeng Tong, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/SLViT.png
+  pdflink: 
+  codelink: 
+  description: In this work, we propose a novel referring segmentation network named SLViT. SLViT introduces an effective encoder block for simutaneous feature extraction and cross-modal attention. Then, it proposes LMFA to exploit the multi-scale information to generate more comprehensive outputs. Furthermore, a novel URCE module is also proposed to find and refine the high uncertainty tokens based on the cross-scale information. SLViT achieves SOTA performance on three datasets.
+- name: "MCKD: Mutually Collaborative Knowledge Distillation for Federated Domain Adaptation and Generalization (ICASSP 2023)"
+  authors: Ziwei Niu, Hongyi Wang, Hao Sun, Shuyi Ouyang, Yen-wei Chen, Lanfen Lin
+  image: /assets/images/MCKD.png
+  pdflink: https://ieeexplore.ieee.org/abstract/document/10095699
+  codelink: 
+  description: MCKD combines UDA and DG with Federated Learning to achieve a higher performance while preserving the users' privacy. collaborative distillation strategy using multiple local models and a centralized model. Experimental results demonstrate its competitive performance compared to state-of-the-art methods on four datasets. 
+- name: "HSVLT: Hierarchical Scale-Aware Vision-Language Transformer for Multi-Label Image Classification (ACM MM 2023)"
+  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Shiao Xie, Ziwei Niu, Ruofeng Tong, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/HSVLT.png
+  pdflink: 
+  codelink: 
+  description: In this work, we propose a multi-scale vision-language model named HSVLT for multi-label image classification. HSVLT features IVLA and CSA, of which the former is for joint updating of visual features, linguistic features, and multi-modal features considering interactive cross-modal cues, and the later is for leveraging complementary information from different scales for decision-making purposes. HSVLT achieves sota performance on three different datasets.
+- name: Adaptive Decomposition and Shared Weight Volumetric Transformer Blocks for efficient patch-free 3D medical image segmentation (J-BHI, 2023)
+  authors: <u>Hongyi Wang</u>, Yingying Xu, Qingqing Chen, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin
+  image: /assets/images/VolumeFormer.png
+  pdflink: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020
+  codelink: https://github.com/Dootmaan/VolumeFormer
+  description: In this paper, we propose a novel patch-free 3D medical image segmentation network named VolumeFormer. It features Adaptive Decomposition, which is the inproved learnable version of Holistic Decomposition, and Shared-Weight Volumetric Transformer Block, a lightweight 3D transformer block that can realize cross-scale weight-sharing. The experimental results demonstrate its efficiency and effectiveness.
