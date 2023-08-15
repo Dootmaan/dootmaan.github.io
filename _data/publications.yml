@@ -35,7 +35,7 @@
   codelink: 
   description: In this work, we propose a novel referring segmentation network named SLViT. SLViT introduces an effective encoder block for simutaneous feature extraction and cross-modal attention. Then, it proposes LMFA to exploit the multi-scale information to generate more comprehensive outputs. Furthermore, a novel URCE module is also proposed to find and refine the high uncertainty tokens based on the cross-scale information. SLViT achieves SOTA performance on three datasets.
 - name: "MCKD: Mutually Collaborative Knowledge Distillation for Federated Domain Adaptation and Generalization (ICASSP 2023)"
-  authors: Ziwei Niu, Hongyi Wang, Hao Sun, Shuyi Ouyang, Yen-wei Chen, Lanfen Lin
+  authors: Ziwei Niu, <u>Hongyi Wang</u>, Hao Sun, Shuyi Ouyang, Yen-wei Chen, Lanfen Lin
   image: /assets/images/MCKD.png
   pdflink: https://ieeexplore.ieee.org/abstract/document/10095699
   codelink: 
