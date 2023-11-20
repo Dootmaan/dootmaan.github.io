@@ -1,0 +1,60 @@
+<div class="columns is-centered is-multiline is-mobile">
+    <div class="container">
+        {% for patent in site.data.patents %}
+        <hr>
+        <br>
+        <div class="columns">
+            <div class="column is-one-third-desktop is-one-third-tablet is-one-third-fullhd">
+                <figure class="image">
+                    <img class="image" src="{{patent.image}}">
+                </figure>
+            </div>
+            <div
+                class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
+                <div class="columns">
+                    <p style="font-size: large; font-weight:bold">{{patent.name}}</p>
+                </div>
+                <div class="columns">
+                    <p style="font-size:small; font-style: italic; margin-bottom: 10px;">{{patent.authors}}</p>
+                </div>
+                <div class="columns has-text-grey">
+                    <p style="font-size:small;">{{patent.description}}</p>
+                    <br>
+                </div>
+                <div class="columns has-text-grey">
+                    <p style="font-size:small;font-weight:bold">Valid Through: {{patent.validthru}}</p>
+                    <br>
+                </div>
+                <div class="columns" style="margin-top: 10px;">
+                    {% unless patent.pagelink == %}
+                    <a href="{{patent.pagelink}}">
+                        <img src="https://img.shields.io/badge/-Google_Patent-eeeeee?style=flat&logo=googledocs">
+                    </a>
+                    {% endunless %}
+                    <!-- {% unless patent.codelink == %}
+                    <a href="{{patent.codelink}}" style="margin-left: 20px;">
+                        <img
+                            src="https://img.shields.io/github/stars/{{patent.codelink | remove: 'https://github.com/'}}?style=social&label=Star&maxAge=2592000">
+                    </a>
+                    {% endunless %} -->
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
+        id="publication-card">
+        <a href="{{patent.pagelink}}" target="_blank">
+        <div class="has-background-black card">
+          <figure class="image is-3by1" style="background-image: url({{patent.image}});">
+          </figure>
+          <div class="card-content">
+            <h1 class="title has-text-white is-size-4">{{ patent.name }}</h1>
+            <p class="has-text-white has-text-weight-light content">{{ patent.description | truncate: 80}}</p>
+          </div>
+        </div>
+        </a>
+      </div> -->
+        {% endfor %}
+        <br>
+    </div>
+</div>

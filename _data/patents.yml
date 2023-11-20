@@ -1,0 +1,12 @@
+- name: Double-flow Worker Labor State Identification Method Based on Space-Time Characteristics (CN115410137A, China)
+  authors: Lanfen Lin, Ziwei Niu, <u>Hongyi Wang</u>, Zhongshao Shi, Hong Xu
+  image: /assets/images/papers.jpg
+  pagelink: https://patents.google.com/patent/CN115410137A/en
+  validthru: Apr 14, 2023 - Nov 11, 2042
+  description: In this patent, we propose a dual stream method for identifying the working status of the workers in a field.
+- name: Engineering Progress Determining Method and Device Based on Multi-Modal Time Sequence Information Fusion (CN116502882B, China)
+  authors: Lanfen Lin, <u>Hongyi Wang</u>, Hao Sun, Zhongshao Shi, Hong Xu
+  image: /assets/images/papers.jpg
+  pagelink: https://patents.google.com/patent/CN116502882B/en
+  validthru: Oct 20, 2023 - Jun 30, 2043
+  description: In this patent, we propose to use multi-modal temporal information to identify the current construction progress.
