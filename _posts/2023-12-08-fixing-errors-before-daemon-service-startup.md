@@ -11,7 +11,7 @@ tags:
 
 ### The Problem I Encountered
 
-So I have updated the Linux Kernel of a server of our lab yesterday, and hence many packages need to be upgraded to the compatible version as well. There are a few dependencies problems during the package updating process, but with the help of package manager, most of them can be easily fixed by removing and reinstalling. You can also try installing aptitude for your package management as aptitude usually can help in building a more tidy package environment. But in this case, I just stick to the original dpkg and apt tools, and some of my most commonly used command lines (we use Ubuntu on our service so the package manager is apt and dpkg) are:
+So I have updated the Linux Kernel of a server of our lab yesterday, and hence many packages need to be upgraded to the compatible version as well. There are a few dependency problems during the package updating process, but with the help of package managers, most of them can be easily fixed. You can also try installing aptitude for your package management as aptitude usually can help in building a more tidy package environment. But in this case, I just stick to the original dpkg and apt tools, for which some of my most commonly used command lines (we use Ubuntu on our service so the package manager is apt and dpkg) are:
 
 - apt -f install
 - dpkg --configure xxxx (or simply -a)
