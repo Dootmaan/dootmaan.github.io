@@ -44,11 +44,11 @@ google-analytics: UA-163806439-1
 disqus-shortname: dotman
 
 # Name of the Author
-author-name: Hongyi aka dotman
+author-name: Hongyi WANG
 # URL for the Image of the Author
 author-image: /assets/images/me3.jpg
 # 60 Words About the Author
-author-about: Hi there, my name is Hongyi Wang and currently I am a fourth-year Computer Science Ph.D. at Zhejiang University, China. My research interests mainly lie in Medical Image Analysis, Light-Weight 3D Models, and Image Reconstruction. I am expected to graduate in 2025 and continue to work with Prof. CHEN Hao at HKUST as a Postdoctoral Researcher.
+author-about: Hi there, my name is Hongyi WANG and currently I am a fourth-year Computer Science Ph.D. at Zhejiang University, China. My research interests mainly lie in Medical Image Analysis, Light-Weight 3D Models, and Image Reconstruction. I am also an enthusiast in electronic devices and software engineering. I am expected to graduate in 2025 and continue to work with Prof. Hao CHEN at HKUST as a Postdoctoral Researcher. 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/Dootmaan
 
