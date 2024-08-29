@@ -4,9 +4,15 @@
   pagelink: https://patents.google.com/patent/CN115410137A/en
   validthru: Apr 14, 2023 - Nov 11, 2042
   description: In this patent, we propose a dual stream method for identifying the working status of the workers in a field.
-- name: Engineering Progress Determining Method and Device Based on Multi-Modal Time Sequence Information Fusion (CN116502882B, China)
+- name: Engineering Progress Determining Method and Device Based on Multi-Modal Time Sequence Information Fusion (CN116502882A, China)
   authors: Lanfen Lin, <u>Hongyi Wang</u>, Hao Sun, Zhongshao Shi, Hong Xu
   image: /assets/images/papers.jpg
-  pagelink: https://patents.google.com/patent/CN116502882B/en
+  pagelink: https://patents.google.com/patent/CN116502882A/en
   validthru: Oct 20, 2023 - Jun 30, 2043
   description: In this patent, we propose to use multi-modal temporal information to identify the current construction progress.
+- name: Muck truck mud detection method and device based on multi-view feature fusion (CN116824213A, China)
+  authors: Lanfen Lin, Shuyi Ouyang, <u>Hongyi Wang</u>, Zhongshao Shi, Hong Xu, Erqing Zhang
+  image: /assets/images/papers.jpg
+  pagelink: https://patents.google.com/patent/CN116824213A/en
+  validthru: Aug 16, 2024 - May 17, 2043
+  description: In this patent, we propose to use multi-view images for comprehensive mud detection on vehicles.
