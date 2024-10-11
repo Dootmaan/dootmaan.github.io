@@ -16,3 +16,9 @@
   pagelink: https://patents.google.com/patent/CN116824213A/en
   validthru: Aug 16, 2024 - May 17, 2043
   description: In this patent, we propose to use multi-view images for comprehensive mud detection on vehicles.
+- name: Single domain generalization method for medical image segmentation (CN116596832A, China)
+  authors: Lanfen Lin, Ziwei Niu, <u>Hongyi Wang</u>, Shiao Xie, Hao Sun, Hongjie Hu, Xiaowei Zhang, Qingqing Chen, Fang Wang
+  image: /assets/images/papers.jpg
+  pagelink: https://patents.google.com/patent/CN116596832A/en
+  validthru: Pending
+  description: In this patent, we propose a single domain generalization method for medical image segmentation.
