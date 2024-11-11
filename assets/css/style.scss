@@ -189,11 +189,10 @@ a.navbar-item.is-active {
 
     .button {
         transition: all 0.25s ease;
+        border: none;
         &:focus {
             outline: 0.25rem solid white;
         }
-
-        border: none;
     }
 }
 
