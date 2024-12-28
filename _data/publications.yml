@@ -58,9 +58,15 @@
   pdflink: https://ieeexplore.ieee.org/document/10221701
   codelink: https://github.com/Dootmaan/VolumeFormer
   description: In this paper, we propose a novel patch-free 3D medical image segmentation network named VolumeFormer. It features Adaptive Decomposition, which is the inproved learnable version of Holistic Decomposition, and Shared-Weight Volumetric Transformer Block, a lightweight 3D transformer block that can realize cross-scale weight-sharing. The experimental results demonstrate its efficiency and effectiveness.
-- name: "M2ORT: Many-To-One Regression Transformer for Spatial Transcriptomics Prediction from Histopathology Images"
+# - name: "<Deprecated> M2ORT: Many-To-One Regression Transformer for Spatial Transcriptomics Prediction from Histopathology Images"
+#   authors: <u>Hongyi Wang</u>, Xiuju Du, Jing Liu, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
+#   image: /assets/images/M2ORT.png
+#   pdflink: https://arxiv.org/abs/2401.10608
+#   codelink: https://github.com/Dootmaan/M2ORT
+#   description: In this paper, we propose a many-to-one regression transformer, M2ORT, for Spatial Transcriptomics prediction. We also propose ITMM and ICMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
+- name: "M2OST: Many-To-One Regression for Predicting Spatial Transcriptomics from Digital Pathology Images"
   authors: <u>Hongyi Wang</u>, Xiuju Du, Jing Liu, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
-  image: /assets/images/M2ORT.png
-  pdflink: https://arxiv.org/abs/2401.10608
-  codelink: https://github.com/Dootmaan/M2ORT
-  description: In this paper, we propose a many-to-one regression transformer, M2ORT, for Spatial Transcriptomics prediction. We also propose ITMM and ICMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
+  image: /assets/images/M2OST.png
+  pdflink: https://arxiv.org/abs/2409.15092
+  codelink: https://github.com/Dootmaan/M2OST
+  description: In this paper, we propose a many-to-one regression transformer, M2ORT, for Spatial Transcriptomics prediction. We also propose ITMM, CTMM, and CCMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
