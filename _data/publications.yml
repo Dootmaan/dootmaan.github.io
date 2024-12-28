@@ -69,4 +69,4 @@
   image: /assets/images/M2OST.png
   pdflink: https://arxiv.org/abs/2409.15092
   codelink: https://github.com/Dootmaan/M2OST
-  description: In this paper, we propose a many-to-one regression transformer, M2ORT, for Spatial Transcriptomics prediction. We also propose ITMM, CTMM, and CCMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
+  description: In this paper, we propose a many-to-one regression transformer, M2OST, for Spatial Transcriptomics prediction. We also propose ITMM, CTMM, and CCMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
