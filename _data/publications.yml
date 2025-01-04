@@ -64,7 +64,7 @@
 #   pdflink: https://arxiv.org/abs/2401.10608
 #   codelink: https://github.com/Dootmaan/M2ORT
 #   description: In this paper, we propose a many-to-one regression transformer, M2ORT, for Spatial Transcriptomics prediction. We also propose ITMM and ICMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
-- name: "M2OST: Many-To-One Regression for Predicting Spatial Transcriptomics from Digital Pathology Images"
+- name: "M2OST: Many-To-One Regression for Predicting Spatial Transcriptomics from Digital Pathology Images (AAAI 2025)"
   authors: <u>Hongyi Wang</u>, Xiuju Du, Jing Liu, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
   image: /assets/images/M2OST.png
   pdflink: https://arxiv.org/abs/2409.15092
