@@ -1,3 +1,9 @@
+- name: Spatial transcriptomics map generation based on multi-level pathology image fusion (CN119007199A, China)
+  authors: Lanfen Lin, <u>Hongyi Wang</u>, Shuyi Ouyang, Yue Liu, Xiao Liang
+  image: /assets/images/papers.jpg
+  pagelink: https://patents.glgoo.top/patent/CN119007199A/en
+  validthru: Authorized. Valid until 2043
+  description: In this patent, we propose a spatial transcriptomics regression methods based on fusing the information from multiple levels in a digital pathology image.
 - name: Double-flow Worker Labor State Identification Method Based on Space-Time Characteristics (CN115410137A, China)
   authors: Lanfen Lin, Ziwei Niu, <u>Hongyi Wang</u>, Zhongshao Shi, Hong Xu
   image: /assets/images/papers.jpg
