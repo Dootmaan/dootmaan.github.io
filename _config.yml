@@ -7,9 +7,9 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: dotman
+title: Hongyi
 # Description of the Site
-description: Welcome to dotman's personal page
+description: Welcome to Hongyi's personal page
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -18,7 +18,7 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://cdn.pixabay.com/photo/2025/02/03/22/59/mountain-9380557_1280.jpg
+heroimage: https://cdn.pixabay.com/photo/2019/03/10/18/31/hong-kong-4046913_1280.jpg
 # heroimage: ../images/hero-ds.jpg
 
 # Social Media and Contact
@@ -48,7 +48,7 @@ author-name: Hongyi WANG
 # URL for the Image of the Author
 author-image: /assets/images/me3.jpg
 # 60 Words About the Author
-author-about: Hi there, my name is Hongyi WANG and currently I am a fifth-year Computer Science Ph.D. at Zhejiang University, China. My research interests mainly lie in 3D Medical Image Analysis, Computational Pathology, and Lightweight Models. I am also an enthusiast in electronic devices and software engineering.
+author-about: Hi there, my name is Hongyi WANG and currently I am a Postdoctoral Fellow at The Hong Kong University of Science and Technology. My research interests mainly lie in 3D Medical Image Analysis, Computational Pathology, and Lightweight Models. I am also an enthusiast in electronic devices and software engineering.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/Dootmaan
 
