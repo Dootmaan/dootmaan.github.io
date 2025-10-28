@@ -6,17 +6,17 @@
 - name: NonLocalPooling
   link: https://github.com/Dootmaan/NonLocalPooling
   image: https://cdn.pixabay.com/photo/2015/01/09/11/11/office-594132_1280.jpg
-  status: experimenting
+  status: finished
   description: Non-Local Pooling Layer for Modern Vision Backbones
 - name: VolumeFormer
   link: https://github.com/Dootmaan/VolumeFormer
   image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
-  status: refurnishing
+  status: finished
   description: Light-weight 3D Vision Transformers for Medical Images
 - name: PFSeg-Full
   link: https://github.com/Dootmaan/PFSeg-Full
   image: https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg
-  status: under review
+  status: finished
   description: Full extended version of my previous MICCAI2021 paper
 - name: U-Shaped 3D AS-MLP
   link: https://github.com/Dootmaan/3D-ASMLP-Segmentation
@@ -48,3 +48,8 @@
   image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_1280.jpg
   status: finished
   description: A WeChat Mini Program that can realize Face Switch (dlib based)
+- name: PathSearch
+  link: https://github.com/Dootmaan/PathSearch
+  image: https://cdn.pixabay.com/photo/2020/02/11/19/56/laptop-4840790_1280.jpg
+  status: refurbishing
+  description: PyTorch implementation of an accurate and scalable pathology retrieval system

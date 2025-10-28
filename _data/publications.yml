@@ -70,3 +70,21 @@
   pdflink: https://arxiv.org/abs/2409.15092
   codelink: https://github.com/Dootmaan/M2OST
   description: In this paper, we propose a many-to-one regression transformer, M2OST, for Spatial Transcriptomics prediction. We also propose ITMM, CTMM, and CCMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
+- name: "Accurate and Scalable Multimodal Pathology Retrieval via Attentive Vision-Language Alignment"
+  authors: <u>Hongyi Wang</u>, Zhengjie Zhu, Jiabo Ma, Fang Wang, Yue Shi, Bo Luo, Jili Wang, Qiuyu Cai, Xiuming Zhang, Yen-Wei Chen, Lanfen Lin, Hao Chen
+  image: /assets/images/PathSearch.png
+  pdflink: https://arxiv.org/abs/2510.23224
+  codelink: https://github.com/Dootmaan/PathSearch
+  description: In this paper, we propose PathSearch, an accurate and scalable multimodal pathology retrieval system that aligns whole slide images and diagnostic reports via attentive vision-language alignment. PathSearch achieves state-of-the-art performance on multiple external datasets and demonstrates potential for clinical applications in a multi-cohort reader study.
+- name: "Triple-Prompt Controllable Diffusion for Universal Data Augmentation in Medical Image Segmentation (ECAI 2025)"
+  authors: Shiao Xie, Ke Meng, <u>Hongyi Wang</u>, Liangjun Zhang, Ziwei Niu, Yen-Wei Chen, Lanfen Lin, Hao Chen
+  image: /assets/images/ECAI2025.png
+  pdflink: pending
+  codelink: 
+  description: In this paper, we propose TPCDM, a method which can jointly generate paired medical images and masks via a triple-prompt diffusion model, achieving superior synthesis and segmentation.
+- name: "Multimodal sentiment analysis with mutual information-based disentangled representation learning (IEEE TAC 2025)"
+  authors: Hao Sun, Ziwei Niu, <u>Hongyi Wang</u>, Xinyao Yu, Jiaqing Liu, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/TAC2025.png
+  pdflink: https://ieeexplore.ieee.org/abstract/document/10842969/
+  codelink: https://github.com/kiva12138/MIMRL
+  description: In this paper, we propose a mutual information-based disentangled framework that balances invariant, specific, and complementary features for superior multimodal sentiment analysis.
