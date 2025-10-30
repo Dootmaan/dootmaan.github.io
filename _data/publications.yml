@@ -88,3 +88,15 @@
   pdflink: https://ieeexplore.ieee.org/abstract/document/10842969/
   codelink: https://github.com/kiva12138/MIMRL
   description: In this paper, we propose a mutual information-based disentangled framework that balances invariant, specific, and complementary features for superior multimodal sentiment analysis.
+- name: "Region-aware Anchoring Mechanism for Efficient Referring Visual Grounding (ICCV 2025)"
+  authors: Shuyi Ouyang, Ziwei Niu, <u>Hongyi Wang</u>, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/ICCV2025.png
+  pdflink: https://openaccess.thecvf.com/content/ICCV2025/html/Ouyang_Region-aware_Anchoring_Mechanism_for_Efficient_Referring_Visual_Grounding_ICCV_2025_paper.html
+  codelink: 
+  description: In this paper, we propose RaAM, a region-aware anchoring mechanism for referring visual grounding that enhances multi-target localization, reduces noise, and lowers computation cost.
+- name: "S2Match: Revisiting Weak-to-Strong Consistency from a Semantic Similarity Perspective for Semi-supervised Medical Image Segmentation (JBHI Under Review)"
+  authors: Shiao Xie, <u>Hongyi Wang</u>, Ziwei Niu, Hao Sun, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/S2Match.png
+  pdflink: https://arxiv.org/abs/2410.13486
+  codelink: https://github.com/zerone-fg/S2Match
+  description: In this paper, we propose a mutual information-based disentangled framework that balances invariant, specific, and complementary features for superior multimodal sentiment analysis. This work has been formerly released as *SemSim, Revisiting Weak-to-Strong Consistency from a Semantic Similarity Perspective for Semi-supervised Medical Image Segmentation*.
