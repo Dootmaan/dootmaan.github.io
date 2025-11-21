@@ -100,3 +100,9 @@
   pdflink: https://arxiv.org/abs/2410.13486
   codelink: https://github.com/zerone-fg/S2Match
   description: In this paper, we propose a mutual information-based disentangled framework that balances invariant, specific, and complementary features for superior multimodal sentiment analysis. This work has been formerly released as *SemSim, Revisiting Weak-to-Strong Consistency from a Semantic Similarity Perspective for Semi-supervised Medical Image Segmentation*.
+- name: "Taming the Phantom: Token-Asymmetric Filtering for Hallucination Mitigation in Large Vision-Language Models (AAAI 2026)"
+  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Gongfan Fang, Xinyin Ma, Lanfen Lin, Xinchao Wang 
+  image: /assets/images/aaai2026.png
+  pdflink: https://openreview.net/forum?id=Xby9dukr9w
+  codelink: 
+  description: In this paper, we analyzed the hallucination issue in large vision-language models and proposed TAF, a token-asymmetric filtering mechanism to mitigate such issue by filtering out potentially problematic image tokens during cross-modal attention. The code will be released upon publication.
