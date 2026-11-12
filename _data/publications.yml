@@ -1,108 +1,96 @@
-- name: Patch-Free 3D Medical Image Segmentation Driven by Super-Resolution Technique and Self-Supervised Guidance (MICCAI 2021)
-  authors: <u>Hongyi Wang</u>, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
-  image: /assets/images/PFSeg.jpg
-  pdflink: https://link.springer.com/chapter/10.1007/978-3-030-87193-2_13
-  codelink: https://github.com/Dootmaan/PFSeg
-  description: In this paper we propose a low-cost 3D segmentation framework which can realize HR segmentation with LR input. Thus, patch-sampling is no longer needed and the model can have the global context when training. Experiments show that our model outperforms patch-based methods with a 4x higher speed.
-- name: Mixed Transformer U-Net For Medical Image Segmentation (ICASSP 2022)
-  authors: <u>Hongyi Wang</u>, Shiao Xie, Lanfen Lin, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
-  image: /assets/images/MT-UNet.jpg
-  pdflink: https://arxiv.org/abs/2111.04734
-  codelink: https://github.com/Dootmaan/MT-UNet
-  description: In this paper we propose a new Vision Transformer module to simutaneously model local and global dependecies. The self-attention is split into fine-grained local SA and coarse-grained global SA with a gaussian mask further added on it. Experiments show that our model achieved sota performance on two datasets.
-- name: "CubeMLP: An MLP-based Model for Multimodal Sentiment Analysis and Depression Estimation (ACM MM 2022)"
-  authors: Hao Sun, <u>Hongyi Wang</u>, Jiaqing LIU, Yen-wei Chen, Lanfen Lin
-  image: /assets/images/CubeMLP.jpg
-  pdflink: https://arxiv.org/abs/2207.14087
-  codelink: 
-  description: In this paper we propose a simple yet efficient pure-MLP multimodal fusion technique named CubeMLP. CubeMLP fuses the multimodal input in sequence, modality and channel dimensions repectively, achieving SOTA performance on CMU-MOSI, CMU-MOSEI and AVEC2019 with a much lower complexity.
-- name: "Super-Resolution Based Patch-Free 3D Medical Image Segmentation with High-Frequency Guidance"
-  authors: <u>Hongyi Wang</u>, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
-  image: /assets/images/PFSeg-Full.jpg
-  pdflink: https://arxiv.org/abs/2210.14645
-  codelink: https://github.com/Dootmaan/PFSeg-Full
-  description: This paper is the extended version of our MICCAI 2021 paper. The main improvements include a selective cropping algorithm for HR guidance patch, the use of multi-scale encoders, and test-time refinement based on the existing LR-HR image pair. This paper is finished in January 2022.
-- name: Iteratively Coupled Multiple Instance Learning from Instance to Bag Classifier for Whole Slide Image Classification (MICCAI 2023)
-  authors: <u>Hongyi Wang</u>, Luyang Luo, Fang Wang, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin, Hao Chen
-  image: /assets/images/ICMIL.png
-  pdflink: https://arxiv.org/pdf/2303.15749
-  codelink: https://github.com/Dootmaan/ICMIL
-  description: In this paper, we propose to solve the information propagation gap between the embedder and classifier in MIL with an iteratively coupled method. This elegant method view the entire MIL pipeline as an EM optimization problem, and is highly generalizable. We adopt ICMIL on different MIL backbones and achieved consistent improvements. The main branch of the repository holds the code for this method.
-- name: "Rethinking Multiple Instance Learning for Whole Slide Image Classification: A Bag-Level Classifier is a Good Instance-Level Teacher (TMI, 2024)"
-  authors: <u>Hongyi Wang</u>, Luyang Luo, Fang Wang, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin, Hao Chen
-  image: /assets/images/confi_icmil.png
-  pdflink: https://arxiv.org/abs/2312.01099
-  codelink: https://github.com/Dootmaan/ICMIL
-  description: In this extended journal version of ICMIL, we propose to use the instance aggregator in MIL backbones to generate confidence score for each instance's pseudo label, thereby improving the effectiveness of the embedder fine-tuning. A bag-level augmentation method is also added for the MIL training to realize a even higher performance. Check our code in the alternative branch of the repository.
-- name: "SLViT: Scale-Wise Language-Guided Vision Transformer for Referring Image Segmentation (IJCAI 2023)"
-  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Shiao Xie, Ziwei Niu, Ruofeng Tong, Yen-Wei Chen, Lanfen Lin
-  image: /assets/images/SLViT.png
-  pdflink: https://www.ijcai.org/proceedings/2023/144
-  codelink: https://github.com/NaturalKnight/SLViT
-  description: In this work, we propose a novel referring segmentation network named SLViT. SLViT introduces an effective encoder block for simutaneous feature extraction and cross-modal attention. Then, it proposes LMFA to exploit the multi-scale information to generate more comprehensive outputs. Furthermore, a novel URCE module is also proposed to find and refine the high uncertainty tokens based on the cross-scale information. SLViT achieves SOTA performance on three datasets.
-- name: "MCKD: Mutually Collaborative Knowledge Distillation for Federated Domain Adaptation and Generalization (ICASSP 2023)"
-  authors: Ziwei Niu, <u>Hongyi Wang</u>, Hao Sun, Shuyi Ouyang, Yen-wei Chen, Lanfen Lin
-  image: /assets/images/MCKD.png
-  pdflink: https://ieeexplore.ieee.org/abstract/document/10095699
-  codelink: 
-  description: MCKD combines UDA and DG with Federated Learning to achieve a higher performance while preserving the users' privacy. collaborative distillation strategy using multiple local models and a centralized model. Experimental results demonstrate its competitive performance compared to state-of-the-art methods on four datasets. 
-- name: "HSVLT: Hierarchical Scale-Aware Vision-Language Transformer for Multi-Label Image Classification (ACM MM 2023)"
-  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Shiao Xie, Ziwei Niu, Ruofeng Tong, Yen-Wei Chen, Lanfen Lin
-  image: /assets/images/HSVLT.png
-  pdflink: https://openreview.net/forum?id=UWQnnh8wKfF
-  codelink: 
-  description: In this work, we propose a multi-scale vision-language model named HSVLT for multi-label image classification. HSVLT features IVLA and CSA, of which the former is for joint updating of visual features, linguistic features, and multi-modal features considering interactive cross-modal cues, and the later is for leveraging complementary information from different scales for decision-making purposes. HSVLT achieves sota performance on three different datasets.
-- name: Adaptive Decomposition and Shared Weight Volumetric Transformer Blocks for efficient patch-free 3D medical image segmentation (J-BHI, 2023)
-  authors: <u>Hongyi Wang</u>, Yingying Xu, Qingqing Chen, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin
-  image: /assets/images/VolumeFormer.png
-  pdflink: https://ieeexplore.ieee.org/document/10221701
-  codelink: https://github.com/Dootmaan/VolumeFormer
-  description: In this paper, we propose a novel patch-free 3D medical image segmentation network named VolumeFormer. It features Adaptive Decomposition, which is the inproved learnable version of Holistic Decomposition, and Shared-Weight Volumetric Transformer Block, a lightweight 3D transformer block that can realize cross-scale weight-sharing. The experimental results demonstrate its efficiency and effectiveness.
-# - name: "<Deprecated> M2ORT: Many-To-One Regression Transformer for Spatial Transcriptomics Prediction from Histopathology Images"
-#   authors: <u>Hongyi Wang</u>, Xiuju Du, Jing Liu, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
-#   image: /assets/images/M2ORT.png
-#   pdflink: https://arxiv.org/abs/2401.10608
-#   codelink: https://github.com/Dootmaan/M2ORT
-#   description: In this paper, we propose a many-to-one regression transformer, M2ORT, for Spatial Transcriptomics prediction. We also propose ITMM and ICMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
-- name: "M2OST: Many-To-One Regression for Predicting Spatial Transcriptomics from Digital Pathology Images (AAAI 2025)"
-  authors: <u>Hongyi Wang</u>, Xiuju Du, Jing Liu, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
-  image: /assets/images/M2OST.png
-  pdflink: https://arxiv.org/abs/2409.15092
-  codelink: https://github.com/Dootmaan/M2OST
-  description: In this paper, we propose a many-to-one regression transformer, M2OST, for Spatial Transcriptomics prediction. We also propose ITMM, CTMM, and CCMM to decouple the multi-scale modeling process in M2ORT, leading to notable savings in computational cost without compromising performance.
-- name: "Accurate and Scalable Multimodal Pathology Retrieval via Attentive Vision-Language Alignment"
-  authors: <u>Hongyi Wang</u>, Zhengjie Zhu, Jiabo Ma, Fang Wang, Yue Shi, Bo Luo, Jili Wang, Qiuyu Cai, Xiuming Zhang, Yen-Wei Chen, Lanfen Lin, Hao Chen
-  image: /assets/images/PathSearch.png
-  pdflink: https://arxiv.org/abs/2510.23224
-  codelink: https://github.com/Dootmaan/PathSearch
-  description: In this paper, we propose PathSearch, an accurate and scalable multimodal pathology retrieval system that aligns whole slide images and diagnostic reports via attentive vision-language alignment. PathSearch achieves state-of-the-art performance on multiple external datasets and demonstrates potential for clinical applications in a multi-cohort reader study.
-- name: "Triple-Prompt Controllable Diffusion for Universal Data Augmentation in Medical Image Segmentation (ECAI 2025)"
-  authors: Shiao Xie, Ke Meng, <u>Hongyi Wang</u>, Liangjun Zhang, Ziwei Niu, Yen-Wei Chen, Lanfen Lin, Hao Chen
-  image: /assets/images/ECAI2025.png
-  pdflink: pending
-  codelink: 
-  description: In this paper, we propose TPCDM, a method which can jointly generate paired medical images and masks via a triple-prompt diffusion model, achieving superior synthesis and segmentation.
+- name: "Taming the Phantom: Token-Asymmetric Filtering for Hallucination Mitigation in Large Vision-Language Models (AAAI 2026)"
+  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Gongfan Fang, Xinyin Ma, Lanfen Lin, Xinchao Wang
+  image: /assets/images/aaai2026.png
+  pdflink: https://ojs.aaai.org/index.php/AAAI/article/view/37768
+  codelink:
+  description: In this paper, we analyzed the hallucination issue in large vision-language models and proposed TAF, a token-asymmetric filtering mechanism to mitigate such issue by filtering out potentially problematic image tokens during cross-modal attention.
+- name: "S2Match: Revisiting Weak-to-Strong Consistency from a Semantic Similarity Perspective for Semi-supervised Medical Image Segmentation (IEEE JBHI, 2026)"
+  authors: Shiao Xie, <u>Hongyi Wang</u>, Ziwei Niu, Hao Sun, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/S2Match.png
+  pdflink: https://doi.org/10.1109/JBHI.2025.3639673
+  arxivlink: https://arxiv.org/abs/2410.13486
+  codelink: https://github.com/zerone-fg/S2Match
+  description: S2Match uses within-image affinity and cross-image feature querying to improve semi-supervised medical image segmentation.
+- name: "Region-aware Anchoring Mechanism for Efficient Referring Visual Grounding (ICCV 2025)"
+  authors: Shuyi Ouyang, Ziwei Niu, <u>Hongyi Wang</u>, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/ICCV2025.png
+  pdflink: https://openaccess.thecvf.com/content/ICCV2025/html/Ouyang_Region-aware_Anchoring_Mechanism_for_Efficient_Referring_Visual_Grounding_ICCV_2025_paper.html
+  codelink:
+  description: In this paper, we propose RaAM, a region-aware anchoring mechanism for referring visual grounding that enhances multi-target localization, reduces noise, and lowers computation cost.
 - name: "Multimodal sentiment analysis with mutual information-based disentangled representation learning (IEEE TAC 2025)"
   authors: Hao Sun, Ziwei Niu, <u>Hongyi Wang</u>, Xinyao Yu, Jiaqing Liu, Yen-Wei Chen, Lanfen Lin
   image: /assets/images/TAC2025.png
   pdflink: https://ieeexplore.ieee.org/abstract/document/10842969/
   codelink: https://github.com/kiva12138/MIMRL
   description: In this paper, we propose a mutual information-based disentangled framework that balances invariant, specific, and complementary features for superior multimodal sentiment analysis.
-- name: "Region-aware Anchoring Mechanism for Efficient Referring Visual Grounding (ICCV 2025)"
-  authors: Shuyi Ouyang, Ziwei Niu, <u>Hongyi Wang</u>, Yen-Wei Chen, Lanfen Lin
-  image: /assets/images/ICCV2025.png
-  pdflink: https://openaccess.thecvf.com/content/ICCV2025/html/Ouyang_Region-aware_Anchoring_Mechanism_for_Efficient_Referring_Visual_Grounding_ICCV_2025_paper.html
-  codelink: 
-  description: In this paper, we propose RaAM, a region-aware anchoring mechanism for referring visual grounding that enhances multi-target localization, reduces noise, and lowers computation cost.
-- name: "S2Match: Revisiting Weak-to-Strong Consistency from a Semantic Similarity Perspective for Semi-supervised Medical Image Segmentation (JBHI Under Review)"
-  authors: Shiao Xie, <u>Hongyi Wang</u>, Ziwei Niu, Hao Sun, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
-  image: /assets/images/S2Match.png
-  pdflink: https://arxiv.org/abs/2410.13486
-  codelink: https://github.com/zerone-fg/S2Match
-  description: In this paper, we propose a mutual information-based disentangled framework that balances invariant, specific, and complementary features for superior multimodal sentiment analysis. This work has been formerly released as *SemSim, Revisiting Weak-to-Strong Consistency from a Semantic Similarity Perspective for Semi-supervised Medical Image Segmentation*.
-- name: "Taming the Phantom: Token-Asymmetric Filtering for Hallucination Mitigation in Large Vision-Language Models (AAAI 2026)"
-  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Gongfan Fang, Xinyin Ma, Lanfen Lin, Xinchao Wang 
-  image: /assets/images/aaai2026.png
-  pdflink: https://openreview.net/forum?id=Xby9dukr9w
-  codelink: 
-  description: In this paper, we analyzed the hallucination issue in large vision-language models and proposed TAF, a token-asymmetric filtering mechanism to mitigate such issue by filtering out potentially problematic image tokens during cross-modal attention. The code will be released upon publication.
+- name: "Triple-Prompt Controllable Diffusion for Universal Data Augmentation in Medical Image Segmentation (ECAI 2025)"
+  authors: Shiao Xie, Ke Meng, <u>Hongyi Wang</u>, Liangjun Zhang, Ziwei Niu, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/ECAI2025.png
+  pdflink: https://doi.org/10.3233/FAIA250876
+  codelink:
+  description: In this paper, we propose TPCDM, a method which can jointly generate paired medical images and masks via a triple-prompt diffusion model, achieving superior synthesis and segmentation.
+- name: "M2OST: Many-To-One Regression for Predicting Spatial Transcriptomics from Digital Pathology Images (AAAI 2025)"
+  authors: <u>Hongyi Wang</u>, Xiuju Du, Jing Liu, Shuyi Ouyang, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/M2OST.png
+  pdflink: https://ojs.aaai.org/index.php/AAAI/article/view/32830
+  arxivlink: https://arxiv.org/abs/2409.15092
+  codelink: https://github.com/Dootmaan/M2OST
+  description: In this paper, we propose a many-to-one regression transformer, M2OST, for Spatial Transcriptomics prediction. We also propose ITMM, CTMM, and CCMM to decouple the multi-scale modeling process in M2OST, leading to notable savings in computational cost without compromising performance.
+- name: "Rethinking Multiple Instance Learning for Whole Slide Image Classification: A Bag-Level Classifier is a Good Instance-Level Teacher (TMI, 2024)"
+  authors: <u>Hongyi Wang</u>, Luyang Luo, Fang Wang, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin, Hao Chen
+  image: /assets/images/confi_icmil.png
+  pdflink: https://doi.org/10.1109/TMI.2024.3404549
+  arxivlink: https://arxiv.org/abs/2312.01099
+  codelink: https://github.com/Dootmaan/ICMIL
+  description: In this extended journal version of ICMIL, we propose to use the instance aggregator in MIL backbones to generate confidence score for each instance's pseudo label, thereby improving the effectiveness of the embedder fine-tuning. A bag-level augmentation method is also added for the MIL training to realize a even higher performance. Check our code in the alternative branch of the repository.
+- name: Adaptive Decomposition and Shared Weight Volumetric Transformer Blocks for efficient patch-free 3D medical image segmentation (J-BHI, 2023)
+  authors: <u>Hongyi Wang</u>, Yingying Xu, Qingqing Chen, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin
+  image: /assets/images/VolumeFormer.png
+  pdflink: https://ieeexplore.ieee.org/document/10221701
+  codelink: https://github.com/Dootmaan/VolumeFormer
+  description: In this paper, we propose a novel patch-free 3D medical image segmentation network named VolumeFormer. It features Adaptive Decomposition, which is the inproved learnable version of Holistic Decomposition, and Shared-Weight Volumetric Transformer Block, a lightweight 3D transformer block that can realize cross-scale weight-sharing. The experimental results demonstrate its efficiency and effectiveness.
+- name: "HSVLT: Hierarchical Scale-Aware Vision-Language Transformer for Multi-Label Image Classification (ACM MM 2023)"
+  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Shiao Xie, Ziwei Niu, Ruofeng Tong, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/HSVLT.png
+  pdflink: https://openreview.net/forum?id=UWQnnh8wKfF
+  codelink:
+  description: In this work, we propose a multi-scale vision-language model named HSVLT for multi-label image classification. HSVLT features IVLA and CSA, of which the former is for joint updating of visual features, linguistic features, and multi-modal features considering interactive cross-modal cues, and the later is for leveraging complementary information from different scales for decision-making purposes. HSVLT achieves sota performance on three different datasets.
+- name: "MCKD: Mutually Collaborative Knowledge Distillation for Federated Domain Adaptation and Generalization (ICASSP 2023)"
+  authors: Ziwei Niu, <u>Hongyi Wang</u>, Hao Sun, Shuyi Ouyang, Yen-wei Chen, Lanfen Lin
+  image: /assets/images/MCKD.png
+  pdflink: https://ieeexplore.ieee.org/abstract/document/10095699
+  codelink:
+  description: MCKD combines UDA and DG with Federated Learning to achieve a higher performance while preserving the users' privacy. collaborative distillation strategy using multiple local models and a centralized model. Experimental results demonstrate its competitive performance compared to state-of-the-art methods on four datasets.
+- name: "SLViT: Scale-Wise Language-Guided Vision Transformer for Referring Image Segmentation (IJCAI 2023)"
+  authors: Shuyi Ouyang, <u>Hongyi Wang</u>, Shiao Xie, Ziwei Niu, Ruofeng Tong, Yen-Wei Chen, Lanfen Lin
+  image: /assets/images/SLViT.png
+  pdflink: https://www.ijcai.org/proceedings/2023/144
+  codelink: https://github.com/NaturalKnight/SLViT
+  description: In this work, we propose a novel referring segmentation network named SLViT. SLViT introduces an effective encoder block for simutaneous feature extraction and cross-modal attention. Then, it proposes LMFA to exploit the multi-scale information to generate more comprehensive outputs. Furthermore, a novel URCE module is also proposed to find and refine the high uncertainty tokens based on the cross-scale information. SLViT achieves SOTA performance on three datasets.
+- name: Iteratively Coupled Multiple Instance Learning from Instance to Bag Classifier for Whole Slide Image Classification (MICCAI 2023)
+  authors: <u>Hongyi Wang</u>, Luyang Luo, Fang Wang, Ruofeng Tong, Yen-Wei Chen, Hongjie Hu, Lanfen Lin, Hao Chen
+  image: /assets/images/ICMIL.png
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-031-43987-2_45
+  arxivlink: https://arxiv.org/abs/2303.15749
+  codelink: https://github.com/Dootmaan/ICMIL
+  description: In this paper, we propose to solve the information propagation gap between the embedder and classifier in MIL with an iteratively coupled method. This elegant method view the entire MIL pipeline as an EM optimization problem, and is highly generalizable. We adopt ICMIL on different MIL backbones and achieved consistent improvements. The main branch of the repository holds the code for this method.
+- name: "CubeMLP: An MLP-based Model for Multimodal Sentiment Analysis and Depression Estimation (ACM MM 2022)"
+  authors: Hao Sun, <u>Hongyi Wang</u>, Jiaqing LIU, Yen-wei Chen, Lanfen Lin
+  image: /assets/images/CubeMLP.jpg
+  pdflink: https://doi.org/10.1145/3503161.3548025
+  arxivlink: https://arxiv.org/abs/2207.14087
+  codelink:
+  description: In this paper we propose a simple yet efficient pure-MLP multimodal fusion technique named CubeMLP. CubeMLP fuses the multimodal input in sequence, modality and channel dimensions repectively, achieving SOTA performance on CMU-MOSI, CMU-MOSEI and AVEC2019 with a much lower complexity.
+- name: Mixed Transformer U-Net For Medical Image Segmentation (ICASSP 2022)
+  authors: <u>Hongyi Wang</u>, Shiao Xie, Lanfen Lin, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
+  image: /assets/images/MT-UNet.jpg
+  pdflink: https://ieeexplore.ieee.org/document/9746172
+  arxivlink: https://arxiv.org/abs/2111.04734
+  codelink: https://github.com/Dootmaan/MT-UNet
+  description: In this paper we propose a new Vision Transformer module to simutaneously model local and global dependecies. The self-attention is split into fine-grained local SA and coarse-grained global SA with a gaussian mask further added on it. Experiments show that our model achieved sota performance on two datasets.
+- name: Patch-Free 3D Medical Image Segmentation Driven by Super-Resolution Technique and Self-Supervised Guidance (MICCAI 2021)
+  authors: <u>Hongyi Wang</u>, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
+  image: /assets/images/PFSeg.jpg
+  pdflink: https://link.springer.com/chapter/10.1007/978-3-030-87193-2_13
+  codelink: https://github.com/Dootmaan/PFSeg
+  description: In this paper we propose a low-cost 3D segmentation framework which can realize HR segmentation with LR input. Thus, patch-sampling is no longer needed and the model can have the global context when training. Experiments show that our model outperforms patch-based methods with a 4x higher speed.

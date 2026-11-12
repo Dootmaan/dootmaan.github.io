@@ -1,3 +1,23 @@
+- name: PathSearch
+  link: https://github.com/Dootmaan/PathSearch
+  image: /assets/images/PathSearch.png
+  description: Multimodal retrieval for whole-slide images and diagnostic reports.
+- name: M2OST
+  link: https://github.com/Dootmaan/M2OST
+  image: /assets/images/M2OST.png
+  description: Predicts spatial gene expression from multiscale histology images.
+- name: ICMIL
+  link: https://github.com/Dootmaan/ICMIL
+  image: /assets/images/ICMIL.png
+  description: Iteratively couples instance and bag classifiers for whole-slide classification.
+- name: Instant LaTeX Previewer
+  link: https://github.com/Dootmaan/instant-latex-previewer
+  image: /assets/images/pdf4compression.png
+  description: Previews LaTeX files in VS Code without a local TeX installation.
+- name: Qwen for Copilot
+  link: https://github.com/Dootmaan/qwen-for-copilot
+  image: /assets/images/mlp_for_what.png
+  description: Connects Qwen Token Plan and standard APIs to Copilot Chat in VS Code.
 - name: DTFD-MIL
   link: https://github.com/Dootmaan/DTFD-MIL.PyTorch
   image: https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506_1280.jpg
@@ -48,8 +68,3 @@
   image: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_1280.jpg
   status: finished
   description: A WeChat Mini Program that can realize Face Switch (dlib based)
-- name: PathSearch
-  link: https://github.com/Dootmaan/PathSearch
-  image: https://cdn.pixabay.com/photo/2020/02/11/19/56/laptop-4840790_1280.jpg
-  status: refurbishing
-  description: PyTorch implementation of an accurate and scalable pathology retrieval system

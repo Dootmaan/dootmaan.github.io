@@ -1,36 +1,42 @@
-- name: Spatial transcriptomics map generation based on multi-level pathology image fusion (CN119007199A, China)
-  authors: Lanfen Lin, <u>Hongyi Wang</u>, Shuyi Ouyang, Yue Liu, Xiao Liang
-  image: /assets/images/papers.jpg
-  pagelink: https://patents.glgoo.top/patent/CN119007199A/en
-  validthru: Authorized. Valid until 2043
-  description: In this patent, we propose a spatial transcriptomics regression methods based on fusing the information from multiple levels in a digital pathology image.
-- name: Double-flow Worker Labor State Identification Method Based on Space-Time Characteristics (CN115410137A, China)
-  authors: Lanfen Lin, Ziwei Niu, <u>Hongyi Wang</u>, Zhongshao Shi, Hong Xu
-  image: /assets/images/papers.jpg
-  pagelink: https://patents.google.com/patent/CN115410137A/en
-  validthru: Apr 14, 2023 - Nov 11, 2042
-  description: In this patent, we propose a dual stream method for identifying the working status of the workers in a field.
-- name: Engineering Progress Determining Method and Device Based on Multi-Modal Time Sequence Information Fusion (CN116502882A, China)
+- name: "Method for controlling actual construction of a construction site based on multi-modality temporal information fusion, and electronic device (US12743669B2, United States)"
   authors: Lanfen Lin, <u>Hongyi Wang</u>, Hao Sun, Zhongshao Shi, Hong Xu
   image: /assets/images/papers.jpg
-  pagelink: https://patents.google.com/patent/CN116502882A/en
-  validthru: Oct 20, 2023 - Jun 30, 2043
+  pagelink: https://patents.justia.com/patent/12743669
+  status: Granted September 22, 2026
+  description: Uses fused temporal features from multiple modalities to estimate construction progress and guide site operations.
+- name: Spatial transcriptomics map generation based on multi-level pathology image fusion (CN119007199B, China)
+  authors: Lanfen Lin, <u>Hongyi Wang</u>, Shuyi Ouyang, Yue Liu, Xiao Liang
+  image: /assets/images/papers.jpg
+  pagelink: https://patents.google.com/patent/CN119007199B/en
+  status: Granted April 8, 2025
+  description: In this patent, we propose a spatial transcriptomics regression method based on fusing the information from multiple levels in a digital pathology image.
+- name: Double-flow Worker Labor State Identification Method Based on Space-Time Characteristics (CN115410137B, China)
+  authors: Lanfen Lin, Ziwei Niu, <u>Hongyi Wang</u>, Zhongshao Shi, Hong Xu
+  image: /assets/images/papers.jpg
+  pagelink: https://patents.google.com/patent/CN115410137B/zh
+  status: Granted April 14, 2023
+  description: In this patent, we propose a dual stream method for identifying the working status of the workers in a field.
+- name: Engineering Progress Determining Method and Device Based on Multi-Modal Time Sequence Information Fusion (CN116502882B, China)
+  authors: Lanfen Lin, <u>Hongyi Wang</u>, Hao Sun, Zhongshao Shi, Hong Xu
+  image: /assets/images/papers.jpg
+  pagelink: https://patents.google.com/patent/CN116502882B/en
+  status: Granted October 20, 2023
   description: In this patent, we propose to use multi-modal temporal information to identify the current construction progress.
 - name: Muck truck mud detection method and device based on multi-view feature fusion (CN116824213A, China)
   authors: Lanfen Lin, Shuyi Ouyang, <u>Hongyi Wang</u>, Zhongshao Shi, Hong Xu, Erqing Zhang
   image: /assets/images/papers.jpg
   pagelink: https://patents.google.com/patent/CN116824213A/en
-  validthru: Aug 16, 2024 - May 17, 2043
+  status: Grant reported in existing records on August 16, 2024
   description: In this patent, we propose to use multi-view images for comprehensive mud detection on vehicles.
 - name: Construction progress identification method and device based on multi-task joint optimization (CN118781440A, China)
   authors: Lanfen Lin, <u>Hongyi Wang</u>, Shiao Xie, Zhongshao Shi, Hong Xu
   image: /assets/images/papers.jpg
   pagelink: https://patents.google.com/patent/CN118781440A/en
-  validthru: Nov 01, 2024 - Jul 02, 2043
+  status: Grant reported in existing records on November 1, 2024
   description: In this patent, we propose a construction progress prediction model with multi-task joint optimization.
 - name: Single domain generalization method for medical image segmentation (CN116596832A, China)
   authors: Lanfen Lin, Ziwei Niu, <u>Hongyi Wang</u>, Shiao Xie, Hao Sun, Hongjie Hu, Xiaowei Zhang, Qingqing Chen, Fang Wang
   image: /assets/images/papers.jpg
   pagelink: https://patents.google.com/patent/CN116596832A/en
-  validthru: Pending
+  status: Published application
   description: In this patent, we propose a single domain generalization method for medical image segmentation.

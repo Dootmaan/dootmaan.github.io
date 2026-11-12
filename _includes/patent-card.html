@@ -6,7 +6,7 @@
         <div class="columns">
             <div class="column is-one-third-desktop is-one-third-tablet is-one-third-fullhd">
                 <figure class="image">
-                    <img class="image" src="{{patent.image}}">
+                    <img class="image" src="{{ patent.image | relative_url }}" alt="" loading="lazy">
                 </figure>
             </div>
             <div
@@ -22,38 +22,18 @@
                     <br>
                 </div>
                 <div class="columns has-text-grey">
-                    <p style="font-size:small;font-weight:bold">Valid Through: {{patent.validthru}}</p>
+                    <p style="font-size:small;font-weight:bold">{{ patent.status }}</p>
                     <br>
                 </div>
                 <div class="columns" style="margin-top: 10px;">
-                    {% unless patent.pagelink == %}
+                    {% if patent.pagelink %}
                     <a href="{{patent.pagelink}}">
-                        <img src="https://img.shields.io/badge/-Google_Patents-eeeeee?style=flat&logo=googledocs">
+                        <img src="https://img.shields.io/badge/-Patent_record-eeeeee?style=flat&logo=googledocs" alt="Patent record">
                     </a>
-                    {% endunless %}
-                    <!-- {% unless patent.codelink == %}
-                    <a href="{{patent.codelink}}" style="margin-left: 20px;">
-                        <img
-                            src="https://img.shields.io/github/stars/{{patent.codelink | remove: 'https://github.com/'}}?style=social&label=Star&maxAge=2592000">
-                    </a>
-                    {% endunless %} -->
+                    {% endif %}
                 </div>
             </div>
         </div>
-
-        <!-- <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
-        id="publication-card">
-        <a href="{{patent.pagelink}}" target="_blank">
-        <div class="has-background-black card">
-          <figure class="image is-3by1" style="background-image: url({{patent.image}});">
-          </figure>
-          <div class="card-content">
-            <h1 class="title has-text-white is-size-4">{{ patent.name }}</h1>
-            <p class="has-text-white has-text-weight-light content">{{ patent.description | truncate: 80}}</p>
-          </div>
-        </div>
-        </a>
-      </div> -->
         {% endfor %}
         <br>
     </div>

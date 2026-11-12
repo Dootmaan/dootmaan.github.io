@@ -17,13 +17,18 @@ layout: compress
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="section">
-                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Publications</p>
+                    <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">{{ page.title | escape }}</p>
                 </div>
-                {% include publication-card.html %}
+                {% assign papers = site.data[page.paper_list] %}
+                {% include publication-card.html papers=papers %}
+                {% if page.show_preprints_link %}
+                <div class="section">
+                    <a class="button is-dark" href="{{ '/preprints' | relative_url }}">View more preprints</a>
+                </div>
+                {% endif %}
             </div>
         </div>
     </section>
-    </div>
 
     <!--Footer-->
     {% include footer.html %}

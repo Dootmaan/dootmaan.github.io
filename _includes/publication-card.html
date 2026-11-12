@@ -1,14 +1,16 @@
 <div class="columns is-centered is-multiline is-mobile">
     <div class="container">
-        {% for publication in site.data.publications %}
+        {% for publication in include.papers %}
         <hr>
         <br>
         <div class="columns">
+            {% if publication.image %}
             <div class="column is-one-third-desktop is-one-third-tablet is-one-third-fullhd">
                 <figure class="image">
-                    <img class="image" src="{{publication.image}}">
+                    <img class="image" src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt | default: publication.name | escape }}" loading="lazy">
                 </figure>
             </div>
+            {% endif %}
             <div
                 class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
                 <div class="columns">
@@ -22,34 +24,26 @@
                     <br>
                 </div>
                 <div class="columns" style="margin-top: 10px;">
-                    {% unless publication.pdflink == %}
+                    {% if publication.pdflink %}
                     <a href="{{publication.pdflink}}">
-                        <img src="https://img.shields.io/badge/-Paper-ec1c24?style=flat&logo=adobeacrobatreader">
+                        <img src="https://img.shields.io/badge/-Paper-ec1c24?style=flat&logo=adobeacrobatreader" alt="Paper">
                     </a>
-                    {% endunless %}
-                    {% unless publication.codelink == %}
+                    {% endif %}
+                    {% if publication.arxivlink %}
+                    <a href="{{ publication.arxivlink }}"{% if publication.pdflink %} style="margin-left: 20px;"{% endif %}>
+                        <img src="https://img.shields.io/badge/arXiv-b31b1b?style=flat&amp;logo=arxiv" alt="arXiv">
+                    </a>
+                    {% endif %}
+                    {% if publication.codelink %}
                     <a href="{{publication.codelink}}" style="margin-left: 20px;">
                         <img
-                            src="https://img.shields.io/github/stars/{{publication.codelink | remove: 'https://github.com/'}}?style=social&label=Star&maxAge=2592000">
+                            src="https://img.shields.io/github/stars/{{publication.codelink | remove: 'https://github.com/'}}?style=social&label=Star&maxAge=2592000" alt="Code on GitHub">
                     </a>
-                    {% endunless %}
+                    {% endif %}
                 </div>
             </div>
         </div>
 
-        <!-- <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
-        id="publication-card">
-        <a href="{{publication.pdflink}}" target="_blank">
-        <div class="has-background-black card">
-          <figure class="image is-3by1" style="background-image: url({{publication.image}});">
-          </figure>
-          <div class="card-content">
-            <h1 class="title has-text-white is-size-4">{{ publication.name }}</h1>
-            <p class="has-text-white has-text-weight-light content">{{ publication.description | truncate: 80}}</p>
-          </div>
-        </div>
-        </a>
-      </div> -->
         {% endfor %}
         <br>
     </div>

@@ -1,0 +1,36 @@
+- name: "Democratizing and accelerating AI-driven pathology research through agentic intelligence (arXiv, 2026)"
+  authors: Jiabo Ma, Cheng Jin, Yihui Wang, Hao Jiang, Ling Liang, Yingxue Xu, Junlin Hou, Zhengrui Guo, Zhengyu Zhang, Yifei Xia, <u>Hongyi Wang</u>, Fengtao Zhou, Zhe Xu, Huajun Zhou, Jiarui Ouyang, Qian Zeng, On Ki Tang, Eunhyang Park, Carolyn Glass, Ronald Cheong Kin Chan, Li Liang, Hao Chen
+  image: /assets/images/PathLab.webp
+  image_alt: PathLab workflow from a natural-language research question to executable analyses and reports
+  arxivlink: https://arxiv.org/abs/2606.20677
+  description: PathLab translates natural-language research questions into executable computational pathology workflows using reusable analysis modules.
+- name: "A Multi-modal Agentic Co-pilot for Evidence Grounded Computational Pathology (arXiv, 2026)"
+  authors: Zhe Xu, Zhengyu Zhang, Zhiyuan Cai, Jiahao Xu, Yijie Lin, Ziyi Liu, Junlin Hou, <u>Hongyi Wang</u>, Yuxiang Nie, Ling Liang, Yihui Wang, Yingxue Xu, Ronald Cheong Kin Chan, Li Liang, Hao Chen
+  image: /assets/images/PathPocket.webp
+  image_alt: PathPocket overview showing how the pathology evidence corpus supports multimodal reasoning
+  arxivlink: https://arxiv.org/abs/2606.08093
+  description: PathPocket retrieves traceable evidence from pathology literature to support reasoning over text, image regions, and whole-slide images.
+- name: "A Pathology Foundation Model for Gastric Cancer with Real-World Validation (arXiv, 2026)"
+  authors: Ling Liang, Jiabo Ma, Zhengyu Zhang, Fengtao Zhou, Yingxue Xu, Yihui Wang, Cheng Jin, Zhengrui Guo, On Ki Tang, Zhijian Cen, Zhen Wang, Qi Xie, Chengyu Lu, Chenglong Zhao, Feifei Wang, Yu Cai, <u>Hongyi Wang</u>, Jing Zhang, Yaping Ye, Shijun Sun, Shenglei Li, Yu Wang, Zhenhui Li, Ronald Cheong Kin Chan, Xiuming Zhang, Zhe Wang, Hao Chen, Li Liang
+  image: /assets/images/GRACE.webp
+  image_alt: GRACE model development, downstream tasks, and gastric pathology evaluation
+  arxivlink: https://arxiv.org/abs/2606.04792
+  description: GRACE is a gastric pathology foundation model evaluated on diagnostic and risk stratification tasks across multiple centers.
+- name: "Spatial Transcriptomics-Guided Alignment Enhances Molecular Profiling in Pathology Foundation Model (arXiv, 2026)"
+  authors: Fengtao Zhou, Yingxue Xu, Zhengyu Zhang, Yihui Wang, Zhengrui Guo, Ling Liang, Jiabo Ma, Cheng Jin, Ziyi Liu, Huajun Zhou, <u>Hongyi Wang</u>, Du Cai, Chenglong Zhao, Xi Wang, Can Yang, Yu Wang, Wenbin Li, Feng Gao, Zhe Wang, Zhenhui Li, Xiuming Zhang, Li Liang, Hao Chen
+  image: /assets/images/STAMP.webp
+  image_alt: STAMP overview showing spatial transcriptomics data curation, model training, and evaluation
+  arxivlink: https://arxiv.org/abs/2606.03644
+  description: STAMP uses spatial transcriptomics and pathway-level supervision to align histology representations with molecular profiles.
+- name: "Accurate and Scalable Multimodal Pathology Retrieval via Attentive Vision-Language Alignment (arXiv, 2025)"
+  authors: <u>Hongyi Wang</u>, Zhengjie Zhu, Jiabo Ma, Fang Wang, Yue Shi, Bo Luo, Jili Wang, Qiuyu Cai, Xiuming Zhang, Yen-Wei Chen, Lanfen Lin, Hao Chen
+  image: /assets/images/PathSearch.png
+  arxivlink: https://arxiv.org/abs/2510.23224
+  codelink: https://github.com/Dootmaan/PathSearch
+  description: PathSearch aligns whole-slide images with diagnostic reports for multimodal case retrieval and evaluates case-based diagnostic support in reader studies.
+- name: "Super-Resolution Based Patch-Free 3D Medical Image Segmentation with High-Frequency Guidance (arXiv, 2022)"
+  authors: <u>Hongyi Wang</u>, Lanfen Lin, Hongjie Hu, Qingqing Chen, Yinhao Li, Yutaro Iwamoto, Xian-Hua Han, Yen-Wei Chen, Ruofeng Tong
+  image: /assets/images/PFSeg-Full.jpg
+  arxivlink: https://arxiv.org/abs/2210.14645
+  codelink: https://github.com/Dootmaan/PFSeg-Full
+  description: This paper is the extended version of our MICCAI 2021 paper. The main improvements include a selective cropping algorithm for HR guidance patch, the use of multi-scale encoders, and test-time refinement based on the existing LR-HR image pair. This paper is finished in January 2022.

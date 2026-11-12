@@ -18,7 +18,7 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://cdn.pixabay.com/photo/2024/01/07/07/59/beach-8492496_1280.jpg
+heroimage: /assets/images/forest-10519674.webp
 # heroimage: ../images/hero-ds.jpg
 
 # Social Media and Contact
